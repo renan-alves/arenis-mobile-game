@@ -1,0 +1,46 @@
+.godot/
+build/
+*.tmp
+
+# Regenerable design animation frames
+design/concepts/**/previews/frames/
+
+tmp/
+
+# Android generated builds, local SDK paths and signing material
+android/build/
+android/.build_version
+platform/android/.gradle/
+platform/android/build/
+platform/android/local.properties
+platform/android/services.local.properties
+addons/arenis_android/bin/
+*.keystore
+*.jks
+*.apk
+*.aab
+.godot/export_credentials.cfg
+
+# Private environment files, service accounts and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+**/service-account*.json
+**/*service-account*.json
+**/credentials*.json
+!**/credentials*.example.json
+!**/service-account*.example.json
+!**/*service-account*.example.json
+
+# Python verification artifacts
+__pycache__/
+*.pyc
