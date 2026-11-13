@@ -1,0 +1,40 @@
+name: Publish Arenis privacy page
+on:
+  push:
+    branches: [main]
+    paths: ['website/**', '.github/workflows/privacy-pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: arenis-privacy-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate policy pages and local links
+        run: python3 tools/check_privacy_site.py
+      - name: Reject unfinished draft
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          data=json.loads(pathlib.Path('website/publication.json').read_text())
+          if not data.get('ready_for_review') or not data.get('contact_email'):
+              raise SystemExit('Define and review the public contact email before publishing.')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: website
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
