@@ -180,6 +180,8 @@ CONTENT = {
  },
 }
 
+TERMS_LABELS = {'pt-BR': 'Termos de uso', 'en': 'Terms of Use (Portuguese)', 'es-419': 'Términos de uso (portugués)'}
+
 LABELS = {
  'pt-BR': {'ads':'os detalhes do SDK', 'google':'a Política de Privacidade do Google', 'partners':'como o Google usa dados', 'delete':'as instruções de exclusão do Play Games', 'github':'a Política de Privacidade do GitHub'},
  'en': {'ads':'the SDK disclosures', 'google':'Google’s Privacy Policy', 'partners':'how Google uses data', 'delete':'the Play Games deletion instructions', 'github':'GitHub’s Privacy Statement'},
@@ -224,16 +226,13 @@ def build(email: str, draft: bool = False):
 <main>{banner}<div class="intro"><p class="eyebrow">{APP}</p><h1>{data['title']}</h1><p class="lead">{data['lead']}</p><p class="date"><time datetime="{DATE}">{data['date']}</time></p></div>
 <div class="summary">{cards}</div><article>{sections}</article>
 <aside class="contact"><h2>{data['contact']}</h2><p>{mail}</p></aside></main>
-<footer><span>{APP}</span><span>© 2026 Renan Alves</span></footer></div></body></html>'''
+<footer><span><a href="{assets}">Arenis</a> · <a href="{assets}terms/">{TERMS_LABELS[locale]}</a></span><span>© 2026 Renan Alves</span></footer></div></body></html>'''
         path = site/paths[locale]
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(page+'\n', encoding='utf-8')
-    # A full readable policy is available at the site root too, with no redirect.
-    root_page = (site/paths['pt-BR']).read_text(encoding='utf-8')
-    root_page = root_page.replace('href="../styles.css"','href="styles.css"').replace('href="../mascot.svg"','href="mascot.svg"').replace('src="../mascot.svg"','src="mascot.svg"').replace('class="brand" href="../"','class="brand" href="./"')
-    root_page = root_page.replace('href="./" lang="pt-BR"','href="privacy/" lang="pt-BR"').replace('href="en/" lang="en"','href="privacy/en/" lang="en"').replace('href="es-419/" lang="es-419"','href="privacy/es-419/" lang="es-419"')
-    (site/'index.html').write_text(root_page, encoding='utf-8')
-    (site/'publication.json').write_text(json.dumps({'app':APP,'updated':DATE,'contact_email':email if not draft else None,'ready_for_review':not draft,'languages':list(CONTENT)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    from build_public_pages import DATE as PUBLIC_DATE, build_public_pages
+    build_public_pages(site, email, draft)
+    (site/'publication.json').write_text(json.dumps({'app':APP,'updated':DATE,'public_pages_updated':PUBLIC_DATE,'contact_email':email if not draft else None,'ready_for_review':not draft,'languages':list(CONTENT)},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'Generated privacy site in {site}; draft={draft}')
 
 if __name__ == '__main__':

@@ -26,7 +26,7 @@ def check(allow_draft=False):
     if not allow_draft:
         assert meta['ready_for_review'] and meta['contact_email'], 'Public email still pending'
     pages=list(ROOT.rglob('*.html'))
-    assert len(pages)==4, 'Expected root and three language pages'
+    assert len(pages)==5, 'Expected homepage, terms and three privacy pages'
     langs=set()
     count=0
     for path in pages:
@@ -34,9 +34,12 @@ def check(allow_draft=False):
         page=Page(); page.feed(source)
         langs.add(page.lang)
         assert page.headings==1, f'Expected one h1: {path}'
-        assert len(page.ids)==len(set(page.ids))==12, f'Missing/duplicate sections: {path}'
+        expected_sections = 12 if 'privacy' in path.relative_to(ROOT).parts else 9 if 'terms' in path.relative_to(ROOT).parts else 3
+        assert len(page.ids)==len(set(page.ids))==expected_sections, f'Missing/duplicate sections: {path}'
         assert not ({'script','iframe','form','object','embed'} & set(page.tags)), f'Unexpected active content: {path}'
-        assert 'Arenis: Sand Sort Challenge' in source and '2026-11-12' in source
+        assert 'Arenis: Sand Sort Challenge' in source
+        if 'privacy' in path.relative_to(ROOT).parts:
+            assert '2026-11-12' in source
         assert not re.search(r'\{(?:email|ads|google|delete|github|partners)\}',source)
         if not allow_draft:
             assert meta['contact_email'] in source and 'mailto:' in source
@@ -57,7 +60,7 @@ def check(allow_draft=False):
     assert 'http:' not in css and 'https:' not in css and '@import' not in css
     assert '(prefers-color-scheme:dark)' in css and '(max-width:620px)' in css
     assert (ROOT/'fonts/Manrope.ttf').is_file() and (ROOT/'fonts/OFL.txt').is_file()
-    print(f'Privacy site: {len(pages)} pages, 12 sections each, 3 languages, {count} links checked; no scripts/forms/remote assets; draft={not meta["ready_for_review"]}.')
+    print(f'Privacy site: {len(pages)} pages (home, terms, privacy in 3 languages), {count} links checked; no scripts/forms/remote assets; draft={not meta["ready_for_review"]}.')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
