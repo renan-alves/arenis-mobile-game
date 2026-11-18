@@ -14,25 +14,26 @@ def build_public_pages(site: Path, email: str, draft: bool = False):
         links = [("Início", assets, "home"), ("Privacidade", assets + "privacy/", "privacy"),
                  ("Termos de uso", assets + "terms/", "terms")]
         nav = ''.join(f'<a href="{url}"' + (' aria-current="page"' if key == current else '') + f'>{label}</a>' for label, url, key in links)
+        document_title = title if title == 'Arenis: Sand Sort Challenge' else title + ' · Arenis: Sand Sort Challenge'
         return f'''<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">{robots}
 <meta name="color-scheme" content="light dark"><meta name="description" content="{escape(description, quote=True)}">
-<title>{escape(title)} · Arenis: Sand Sort Challenge</title>
+<title>{escape(document_title)}</title>
 <link rel="stylesheet" href="{assets}styles.css"><link rel="icon" type="image/svg+xml" href="{assets}mascot.svg"></head>
 <body><div class="page"><header><a class="brand" href="{assets}"><img src="{assets}mascot.svg" width="56" height="56" alt=""><span><b>arenis</b><small>Sand Sort Challenge</small></span></a>
 <nav aria-label="Navegação principal">{nav}</nav></header><main>{banner}{body}
 <aside class="contact"><h2>Suporte e contato</h2><p>{contact}</p></aside></main>
 <footer><span>Arenis: Sand Sort Challenge · © 2026 Renan Alves</span><span><a href="{assets}privacy/">Política de Privacidade</a> · <a href="{assets}terms/">Termos de uso</a></span></footer></div></body></html>
 '''
-    home = '''<div class="intro"><p class="eyebrow">Arenis: Sand Sort Challenge · Android</p>
-<h1>Um pouco de areia.<br>Uma nova possibilidade.</h1>
+    home = '''<div class="intro"><p class="eyebrow">Jogo de organizar areias · Android</p>
+<h1>Arenis: Sand Sort Challenge</h1>
 <p class="lead">Organize areias coloridas em tubos de ensaio. Planeje cada transferência até preencher cada tubo com uma única cor, no seu ritmo.</p>
 <p class="date">Em desenvolvimento · Ainda não disponível na Google Play</p></div>
 <div class="summary"><div><strong>Sem cronômetro</strong><p>Observe, experimente e encontre seu caminho.</p></div><div><strong>Três dificuldades</strong><p>Fácil, Intermediário e Difícil, com progressão por níveis.</p></div><div><strong>Um visual tranquilo</strong><p>Contornos leves, temas claro e escuro e um mascote curioso.</p></div></div>
 <article><section id="jogo"><h2>Como funciona</h2><p>Toque em um tubo e escolha outro para transferir o bloco de areia da cor que está no topo. O destino pode receber areia de qualquer cor, desde que esteja desbloqueado e tenha espaço; se o espaço for menor, parte do bloco é transferida.</p><p>Você conclui o nível quando todos os tubos com areia estão cheios e contêm uma única cor. Tubos vazios podem permanecer como apoio. Suas estrelas dependem da quantidade de movimentos, incluindo o desfazer.</p></section>
 <section id="recursos"><h2>Mais possibilidades a cada nível</h2><p>O jogo reúne 150 níveis predefinidos, com areia escondida e tubos trancados introduzidos ao longo da progressão. O app tem português, inglês e espanhol da América Latina, além de símbolos opcionais para ajudar a distinguir as cores.</p><p>As partidas e preferências ficam no dispositivo. A sincronização de resultados concluídos com o Google Play Games será opcional nas versões que disponibilizarem o recurso.</p></section>
 <section id="suporte"><h2>Publicidade e privacidade</h2><p>O modelo previsto é gratuito, com banners e anúncios intersticiais entre partidas, sem recompensas ligadas a anúncios. Consulte a <a href="privacy/">Política de Privacidade</a> e os <a href="terms/">Termos de uso</a> para saber mais.</p><p>Desenvolvido de forma independente por Renan Alves. Para dúvidas sobre o jogo ou seus dados, use o contato abaixo.</p></section></article>'''
-    (site/'index.html').write_text(page('Jogo de organizar areias', 'Conheça Arenis: Sand Sort Challenge, um jogo para Android de organizar areias coloridas, sem cronômetro, com três dificuldades.', home, './', 'home'), encoding='utf-8')
+    (site/'index.html').write_text(page('Arenis: Sand Sort Challenge', 'Conheça Arenis: Sand Sort Challenge, um jogo para Android de organizar areias coloridas, sem cronômetro, com três dificuldades.', home, './', 'home'), encoding='utf-8')
     sections = [
         ('sobre', '1. Sobre o jogo e estes termos', 'Estes termos descrevem o uso de Arenis: Sand Sort Challenge, jogo para Android desenvolvido de forma independente por Renan Alves. O app está em desenvolvimento; recursos podem depender da versão instalada. Leia estes termos e a Política de Privacidade antes de utilizar o jogo. Para dúvidas, entre em contato pelo e-mail ao final.'),
         ('uso', '2. Uso do aplicativo', 'Você pode instalar e utilizar o jogo para seu entretenimento pessoal. Utilize o app de forma lícita e respeite os direitos de outras pessoas. Não utilize o aplicativo para distribuir código malicioso, obter acesso indevido a serviços ou explorar falhas para prejudicar outros usuários. Estas condições não restringem usos permitidos por lei nem as licenças próprias dos componentes de terceiros.'),
