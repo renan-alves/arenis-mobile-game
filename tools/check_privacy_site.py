@@ -39,7 +39,7 @@ def check(allow_draft=False):
         assert not ({'script','iframe','form','object','embed'} & set(page.tags)), f'Unexpected active content: {path}'
         assert 'Arenis: Sand Sort Challenge' in source
         if 'privacy' in path.relative_to(ROOT).parts:
-            assert '2026-11-12' in source
+            assert meta['updated'] in source
         assert not re.search(r'\{(?:email|ads|google|delete|github|partners)\}',source)
         if not allow_draft:
             assert meta['contact_email'] in source and 'mailto:' in source

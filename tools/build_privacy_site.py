@@ -9,7 +9,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = 'Arenis: Sand Sort Challenge'
-DATE = '2026-11-12'
+DATE = '2026-11-19'
 LINKS = {
     'ads': 'https://developers.google.com/admob/android/privacy/play-data-disclosure',
     'google': 'https://policies.google.com/privacy',
@@ -20,7 +20,7 @@ LINKS = {
 
 CONTENT = {
  'pt-BR': {
-  'title': 'Política de Privacidade', 'date': 'Atualizada em 12 de novembro de 2026',
+  'title': 'Política de Privacidade', 'date': 'Atualizada em 19 de novembro de 2026',
   'lead': 'Entenda como seus dados são tratados enquanto você joga, vê anúncios ou escolhe sincronizar seu progresso.',
   'contact': 'Contato de privacidade e suporte', 'languages': 'Idioma da página',
   'draft': 'Rascunho local: o contato público ainda precisa ser definido.',
@@ -43,8 +43,9 @@ CONTENT = {
     'Quando disponível, reabra as escolhas em Configurações → Conta e privacidade → Privacidade dos anúncios. O Android também oferece controles para o identificador de publicidade. Recusar a personalização não significa necessariamente deixar de receber anúncios. Saiba mais em {partners}.'
    ]),
    ('nuvem', '5. Sincronização opcional com Play Games', [
+    'O SDK do Google Play Games é inicializado na abertura do app para preparar a conexão e pode reconhecer automaticamente um perfil já configurado no aparelho. Essa preparação usa os dados de conta e técnicos necessários ao serviço, conforme {google}. A criação automática de novos perfis permanece desativada; a conexão explícita pode apresentar a interface do Google.',
     'Se o recurso estiver disponível e você ativar Sincronizar progresso em Conta e privacidade, o Google Play Games autentica sua Conta do Google e armazena uma cópia das conclusões. O Google também trata os dados de conta e técnicos necessários ao seu serviço, conforme {google}.',
-    'A cópia enviada pelo Arenis contém identificadores e revisões dos níveis, versão das regras, estrelas e melhores quantidades de jogadas. Partidas em andamento, desfazer, preferências e contador de anúncios não fazem parte dessa cópia. Desativar a sincronização interrompe novas operações do app, mas não exclui cópias já salvas nem desconecta sua Conta do Google.'
+    'A cópia enviada pelo Arenis contém identificadores e revisões dos níveis, versão das regras, estrelas e melhores quantidades de jogadas. Partidas em andamento, desfazer, preferências e contador de anúncios não fazem parte dessa cópia. Desativar a sincronização interrompe a leitura e o envio de resultados pelo Arenis, mas não exclui cópias já salvas nem desconecta sua Conta do Google.'
    ]),
    ('contato', '6. Quando você entra em contato', [
     'Se enviar uma mensagem de suporte ou privacidade, trataremos seu e-mail e as informações fornecidas para responder e resolver a solicitação. Envie somente o necessário; não envie senhas ou documentos de identidade sem uma necessidade previamente esclarecida.'
@@ -73,7 +74,7 @@ CONTENT = {
   ],
  },
  'en': {
-  'title': 'Privacy Policy', 'date': 'Updated November 12, 2026',
+  'title': 'Privacy Policy', 'date': 'Updated November 19, 2026',
   'lead': 'How your data is handled while you play, see ads or choose to sync your progress.',
   'contact': 'Privacy and support contact', 'languages': 'Page language',
   'draft': 'Local draft: a public contact email still needs to be provided.',
@@ -96,8 +97,9 @@ CONTENT = {
     'Where available, reopen your choices under Settings → Account and privacy → Ad privacy. Android also provides advertising identifier controls. Declining personalization does not necessarily remove ads. Learn more at {partners}.'
    ]),
    ('cloud', '5. Optional Play Games sync', [
+    'The Google Play Games SDK initializes when the app opens to prepare the connection and may automatically recognize a profile already configured on the device. This preparation uses account and technical data needed for the service under {google}. Automatic creation of new profiles stays disabled; an explicit connection may display Google’s interface.',
     'If the feature is available and you enable Sync progress in Account and privacy, Google Play Games authenticates your Google Account and stores a copy of completed results. Google also handles account and technical data needed for its service under {google}.',
-    'The copy sent by Arenis contains level identifiers and revisions, rules version, stars and best move counts. It excludes ongoing games, undo history, preferences and the ad counter. Turning sync off stops new app sync operations, but does not delete previously stored copies or sign you out of your Google Account.'
+    'The copy sent by Arenis contains level identifiers and revisions, rules version, stars and best move counts. It excludes ongoing games, undo history, preferences and the ad counter. Turning sync off stops Arenis from reading or uploading results, but does not delete previously stored copies or sign you out of your Google Account.'
    ]),
    ('contact', '6. When you contact us', [
     'If you send a support or privacy message, we process your email address and the information you provide to respond and resolve the request. Send only what is needed; do not send passwords or identity documents without a previously explained need.'
@@ -126,7 +128,7 @@ CONTENT = {
   ],
  },
  'es-419': {
-  'title': 'Política de Privacidad', 'date': 'Actualizada el 12 de noviembre de 2026',
+  'title': 'Política de Privacidad', 'date': 'Actualizada el 19 de noviembre de 2026',
   'lead': 'Cómo se tratan tus datos mientras juegas, ves anuncios o eliges sincronizar tu progreso.',
   'contact': 'Contacto de privacidad y soporte', 'languages': 'Idioma de la página',
   'draft': 'Borrador local: falta definir el correo de contacto público.',
@@ -149,8 +151,9 @@ CONTENT = {
     'Cuando esté disponible, reabre tus opciones en Configuración → Cuenta y privacidad → Privacidad de los anuncios. Android también ofrece controles del identificador publicitario. Rechazar la personalización no necesariamente elimina los anuncios. Consulta {partners}.'
    ]),
    ('nube', '5. Sincronización opcional con Play Games', [
+    'El SDK de Google Play Games se inicializa al abrir la app para preparar la conexión y puede reconocer automáticamente un perfil ya configurado en el dispositivo. Esta preparación utiliza los datos de cuenta y técnicos necesarios para el servicio según {google}. La creación automática de nuevos perfiles permanece desactivada; la conexión explícita puede mostrar la interfaz de Google.',
     'Si la función está disponible y activas Sincronizar progreso en Cuenta y privacidad, Google Play Games autentica tu Cuenta de Google y guarda una copia de los resultados completados. Google también trata los datos de cuenta y técnicos necesarios para su servicio según {google}.',
-    'La copia enviada por Arenis contiene identificadores y revisiones de niveles, versión de reglas, estrellas y mejores cantidades de movimientos. No incluye partidas en curso, deshacer, preferencias ni contador de anuncios. Desactivar la sincronización detiene nuevas operaciones de la app, pero no elimina copias guardadas ni cierra tu sesión de Google.'
+    'La copia enviada por Arenis contiene identificadores y revisiones de niveles, versión de reglas, estrellas y mejores cantidades de movimientos. No incluye partidas en curso, deshacer, preferencias ni contador de anuncios. Desactivar la sincronización detiene la lectura y el envío de resultados por Arenis, pero no elimina copias guardadas ni cierra tu sesión de Google.'
    ]),
    ('contacto', '6. Cuando nos contactas', [
     'Si envías un mensaje de soporte o privacidad, trataremos tu correo y la información proporcionada para responder y resolver la solicitud. Envía solo lo necesario; no envíes contraseñas o documentos de identidad sin una necesidad previamente explicada.'
