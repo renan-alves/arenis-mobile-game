@@ -1,0 +1,294 @@
+{
+  "reason": "Keep independent Godot optimality proof within 20 seconds. Curated replacement, seed 20261122142.",
+  "levels": [
+    {
+      "id": "level-142",
+      "version": 1,
+      "title": "Nível 142",
+      "number": 142,
+      "difficulty": "Campanha",
+      "difficulty_id": "journey",
+      "capacity": 7,
+      "minimum_moves": 24,
+      "lesson": "Separe cada cor em um tubo cheio.",
+      "mode": "moves",
+      "move_limit": 54,
+      "time_limit": 0,
+      "bottles": [
+        {
+          "colors": [
+            "sky",
+            "sky",
+            "sage",
+            "sage",
+            "peach"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "colors": [
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "gold"
+          ],
+          "hidden": [
+            1,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "sage",
+            "sage",
+            "sage",
+            "sage",
+            "peach",
+            "peach",
+            "sky"
+          ],
+          "hidden": [
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "rose",
+            "rose",
+            "rose",
+            "sky",
+            "sky",
+            "peach",
+            "peach"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "lilac",
+            "lilac",
+            "lilac",
+            "aqua",
+            "lilac",
+            "indigo",
+            "gold"
+          ],
+          "hidden": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "lilac",
+            "lilac",
+            "lilac",
+            "gold",
+            "sage",
+            "aqua",
+            "sky"
+          ],
+          "hidden": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "peach"
+          ]
+        },
+        {
+          "colors": [
+            "indigo",
+            "indigo",
+            "indigo",
+            "indigo",
+            "indigo",
+            "indigo",
+            "gold"
+          ],
+          "hidden": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "peach"
+          ],
+          "hidden": [
+            1
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "aqua",
+            "aqua",
+            "aqua",
+            "gold",
+            "gold",
+            "rose"
+          ],
+          "hidden": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "gold",
+            "rose",
+            "rose",
+            "rose",
+            "sky"
+          ],
+          "hidden": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2,
+      "expanded": 0,
+      "fingerprint": "eb842c35082e7412546efea9ef600cf587be218c05f0f1c515c296a8e70fec87",
+      "id": "level-142",
+      "minimum_moves": 24,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3,
+      "solution": [
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "states": 1,
+      "status": "optimal",
+      "version": 1
+    }
+  ]
+}

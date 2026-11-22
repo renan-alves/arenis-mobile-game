@@ -1,0 +1,26 @@
+[
+  {
+    "difficulty": "easy",
+    "min": 3,
+    "max": 7,
+    "without_empty": 13,
+    "hidden": 25,
+    "locks": 30
+  },
+  {
+    "difficulty": "medium",
+    "min": 4,
+    "max": 11,
+    "without_empty": 15,
+    "hidden": 25,
+    "locks": 30
+  },
+  {
+    "difficulty": "hard",
+    "min": 3,
+    "max": 11,
+    "without_empty": 15,
+    "hidden": 25,
+    "locks": 30
+  }
+]

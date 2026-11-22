@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ícone Arenis</title>
+  <desc id="desc">Uma forma geométrica cor de areia com dois olhos expressivos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D9E7E2"/>
+      <stop offset="1" stop-color="#F5F0E4"/>
+    </linearGradient>
+    <linearGradient id="mascotSand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3D79B"/>
+      <stop offset="1" stop-color="#D7A35A"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="#245358"/>
+  <circle cx="256" cy="256" r="205" fill="url(#bg)"/>
+  <path d="M256 99c94 0 166 69 166 163 0 94-59 178-166 193-107-15-166-99-166-193 0-94 72-163 166-163z" fill="url(#mascotSand)" stroke="#245358" stroke-width="12" stroke-linejoin="round"/>
+  <ellipse cx="211" cy="250" rx="32" ry="43" fill="#FFFDF7"/>
+  <ellipse cx="301" cy="250" rx="32" ry="43" fill="#FFFDF7"/>
+  <ellipse cx="211" cy="254" rx="13" ry="21" fill="#245358"/>
+  <ellipse cx="301" cy="254" rx="13" ry="21" fill="#245358"/>
+  <circle cx="206" cy="247" r="4" fill="#FFFFFF"/>
+  <circle cx="296" cy="247" r="4" fill="#FFFFFF"/>
+</svg>

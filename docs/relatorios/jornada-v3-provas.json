@@ -1,0 +1,10732 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 20000,
+  "max_states": 120000,
+  "mode": "validate",
+  "pack_id": "journey",
+  "pack_version": 1.0,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "b4926856c1ede660780659995c38f06b784283fdf03adabe6feedd981cb0a11b",
+      "id": "level-001",
+      "minimum_moves": 3.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "477d7beafc568ff4166e7508e2fc50f53880d809718be3b0cece1446ddefa6c6",
+      "id": "level-002",
+      "minimum_moves": 3.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "3366a2b3e91dcfdfb3d4fdc8bfb66f62caef6624c783641ef1a76a96bb09506d",
+      "id": "level-003",
+      "minimum_moves": 3.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 1.0,
+      "fingerprint": "9ba2b92554a7fd887bf40f213f5bffe3f40035233fa0e8b9b9dfdead4331c6fd",
+      "id": "level-004",
+      "minimum_moves": 4.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "58858985585d16ec25cadee3be3166d4aeb239d622ade90f034d38888d93dcc0",
+      "id": "level-005",
+      "minimum_moves": 4.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "ca341935e5f1087242c0363844f148c4cf73b8faf9a0fcecd1d8d518daa800d0",
+      "id": "level-006",
+      "minimum_moves": 4.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 1.0,
+      "fingerprint": "cabfd99c7af3adf46e54023aacbb003245081f90b28059c97d454088684abdc0",
+      "id": "level-007",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "5f7a7449fce2c430dc574f1e075322f9b333bfde87189817dd8a8694103d7abe",
+      "id": "level-008",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "4b7eb2ee2a14698c4a5799976964ddfe012cd2b10ae5251ea2044ce731cf0b75",
+      "id": "level-009",
+      "minimum_moves": 4.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "1d59756868a12c56020a7c623afedb3e516897b0ad51b5c54eec88eb9a39cfca",
+      "id": "level-010",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "c9cb29d41544bfeaa14708b44dfa977ea0db4353d0665c162ead704cb9f38874",
+      "id": "level-011",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "457a4f0312a6f4a46a8e27e08d7e1ce6fc825c09c105f7a858dace8790e6f4c1",
+      "id": "level-012",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "4a947a751014e4fb47df06c50427c88d942d7c986177bc787e3308a1fce448de",
+      "id": "level-013",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "a64ce57d25b57257bd763ff3a9894eee654b561734526b423cf10f1f6ce39085",
+      "id": "level-014",
+      "minimum_moves": 4.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 1.0,
+      "fingerprint": "e0cf6d4cd193764a0f4fa4b4f20a5a522da6f26bba497ded409d2bc27f609d0d",
+      "id": "level-015",
+      "minimum_moves": 5.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "1d4e8efa9b48fd514a3b4ebca344db71b5f146dabbceb1057d354000ebbb896b",
+      "id": "level-016",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          1.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "27e865d3a63c912a77a36b6c33967bed8ece18572c7809331d3b90eb20db5062",
+      "id": "level-017",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          4.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "286c8b9f81c0ab660c5ae447483c64007ca4e7ed2e1a00413f8d1f66ce675131",
+      "id": "level-018",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "a029c2320c773fc5225dace08bd8f66629f45715a00d7786c66764235c9b5093",
+      "id": "level-019",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "94886104cb74dd0863bcfec884f7f40f332deb5a0d48f6bd622213847cf8f7fa",
+      "id": "level-020",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "139d639521c071321d2c73ffc8615db8a27b1b8863dba73ecd2faf9b7b5d2a3c",
+      "id": "level-021",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          3.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "3b8598a43b5435ce453d5aae47cbed7213b2572c24486d305f494b0c7c92b758",
+      "id": "level-022",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "7dbe42ce18c1a6d611dfa93dd425276bd62fc1cebb40056b093dedb5a5ee1fd2",
+      "id": "level-023",
+      "minimum_moves": 6.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "3702ba85dd7bec0862df6cb07503d6ca57d537f0fe859bda1aa9eaf373bf85a4",
+      "id": "level-024",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "638c4efac1302b27d2afdbc1e28c6a028921a3b0200f75ef15e5ecf3dae03040",
+      "id": "level-025",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          5.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 1.0,
+      "fingerprint": "0257aa12e50eae3e25345e13e212f34f2a386e4e0eaada7bea226caa548330a3",
+      "id": "level-026",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 6.0,
+      "expanded": 9.0,
+      "fingerprint": "a53b219e173def42858afe19c4661d646763590c2aee415002083112731f1b04",
+      "id": "level-027",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "states": 9.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "f67fdfb4133ff8700f40c8cae5c9e9be70a455d42bd96f4866059b24e6c336d4",
+      "id": "level-028",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "c346a4b0a6e927a2190ba9b850062975dbdf4f6b75b7b9d9541cd54f68b8e70e",
+      "id": "level-029",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "a4a1123733468292cdf69a7f367c2b163d0f71dbf7b24f968f8901683cb16747",
+      "id": "level-030",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          5.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "40590cc7939458071eb6e5735c22ed939646ccfb32a0b06c477ba6efc34ffa1c",
+      "id": "level-031",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          6.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "2def86be0d57b1da9dae0ae461e52806dc08967dcc6bd1b433e1bc1db17a8660",
+      "id": "level-032",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          3.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "4ad434ec9a55e03082896fb540861e66f04bf92f96690c3f8a95a0d07c7cca1f",
+      "id": "level-033",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3.0,
+      "expanded": 4.0,
+      "fingerprint": "0f31abdb489f8b696f8b4657278bd467654793f962090d55388d18871cd771be",
+      "id": "level-034",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          4.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "states": 4.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 1.0,
+      "fingerprint": "16f9991ed00b1ae28a8f7bc51eb19e933752122c05f254159df178c3df032e63",
+      "id": "level-035",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "73b6d482f5b91a027a231f3e5b542aae029b0e4516db79dda7fb38c2cd746027",
+      "id": "level-036",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          3.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 1.0,
+      "fingerprint": "8e322953f904be70455b9fa7a9b11df5a3b87e1bb1b3e289c2d5806f158c34a4",
+      "id": "level-037",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          3.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "dc305608bd2f8c8bf2f7d46e5a39a77e28549455bafcc99e4682cbb26ad1157a",
+      "id": "level-038",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "8d7b616d738f35a898b8eabf3a194387b7e8ad559d21900a0061a578e2bdf722",
+      "id": "level-039",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3.0,
+      "expanded": 4.0,
+      "fingerprint": "b4a705bcfe52645d12cdf81c11dadf6edf453ff8f05b404195833ce6704985a4",
+      "id": "level-040",
+      "minimum_moves": 7.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          6.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          5.0,
+          4.0
+        ]
+      ],
+      "states": 4.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "36c4b3f788f7183e9484ebc4c2db698f9faa81bb5bc7713160526ca604bdf796",
+      "id": "level-041",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "3fb44967091f0afb0ee88c85b0f8afd3a9178623122e4df7b7d805a68d52b40b",
+      "id": "level-042",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 18.0,
+      "expanded": 34.0,
+      "fingerprint": "849079c5c600e530062d0a68b9677e26c7d65c5c4ea880dcbe7993ed916ff9b4",
+      "id": "level-043",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ]
+      ],
+      "states": 34.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 71.0,
+      "expanded": 75.0,
+      "fingerprint": "6cf4aca7935344b46eab9ff5f111addcf2c0bcfbf7809aeba15998054adf2772",
+      "id": "level-044",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          2.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ]
+      ],
+      "states": 75.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3.0,
+      "expanded": 1.0,
+      "fingerprint": "f1cb27487b2ceb27c6ebf5e2a956828cd136ffaf6ce38d04cf401c7c9543468d",
+      "id": "level-045",
+      "minimum_moves": 8.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 37.0,
+      "expanded": 40.0,
+      "fingerprint": "fea46645295fd2ceafa2adca611ed4df78ad36bc9b71354052605d81d1c5e0b8",
+      "id": "level-046",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ],
+      "states": 40.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "6b89fcf05cdf998178e96211f1681f2631c493595ad3eff47a8331291fe0a1ec",
+      "id": "level-047",
+      "minimum_moves": 12.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "140825488da383eda1ce8a6223fe70e4a9252b6e6331b7233511a8d2d8a409ea",
+      "id": "level-048",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          1.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 365.0,
+      "expanded": 496.0,
+      "fingerprint": "d59aeaa09a14340bae474715293078f6db6b25e15dc6f50983262a2b62bc260c",
+      "id": "level-049",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ]
+      ],
+      "states": 496.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "49ba9e85d3cf121e12b4d0533314eeedc6da3d8186e6a2793f82e6410a181cc2",
+      "id": "level-050",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          7.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "b64226a09214087783b60ef81179ba06eb1f19d23c72e14510f873025597305d",
+      "id": "level-051",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          0.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 281.0,
+      "expanded": 348.0,
+      "fingerprint": "89d340c6f9394d2cc77774780fc90e741b8ccd7f625d13dc09d87d8e8a77cf6b",
+      "id": "level-052",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ]
+      ],
+      "states": 348.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 73.0,
+      "expanded": 75.0,
+      "fingerprint": "183f3d646921d2ddd457ccc957d683f76fa598f2a8b3e9d18e4b258b46c07fd7",
+      "id": "level-053",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          3.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "states": 75.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 38.0,
+      "expanded": 40.0,
+      "fingerprint": "3f0f31e98dc6151b11c9fa55fa0a36b8b0821840ebe616a1031be981d13124cb",
+      "id": "level-054",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          3.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          4.0
+        ]
+      ],
+      "states": 40.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "e5ee9127a79584635f736bb9247b4360cb5c4b21159cc688f9cf5679ed90c5ba",
+      "id": "level-055",
+      "minimum_moves": 12.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          1.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "7c36ba4f18528032b9bf672e3565ca4121214a739ba1c20cd457fc5286924688",
+      "id": "level-056",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          4.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "4aa655b96da3bb2b1b390488fb5e211e04447662e00b322969b488ce01fbdecd",
+      "id": "level-057",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          3.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "6d637ac6ca52f0cac88305aeec2c181d5d875df17a1ac46647a378879e5505d1",
+      "id": "level-058",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          6.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "5cbc58000ba0fa6a1780402195c0d853e40a13ce7af5c70e02d2480616369c0a",
+      "id": "level-059",
+      "minimum_moves": 9.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          6.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          3.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "a164bef235c8824270df85fb0c6f70d1fb40b6bc615ee0cde89562c8f5dbc29e",
+      "id": "level-060",
+      "minimum_moves": 12.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 23.0,
+      "expanded": 22.0,
+      "fingerprint": "fa7dba0cf4b43ef3e9913bd4d0d854fbfdcb3e6140992de34c5124b826604fad",
+      "id": "level-061",
+      "minimum_moves": 12.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          5.0,
+          6.0
+        ]
+      ],
+      "states": 22.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "9cbeb27a0ca49c26f6fcdbf2ffdf55927d052ee7fd6621519f23a7410309632a",
+      "id": "level-062",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 22.0,
+      "expanded": 28.0,
+      "fingerprint": "17a446dc4f203c4c2ccd328e6c9b1ebef336213627971b22284a56ed9c219963",
+      "id": "level-063",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          5.0,
+          7.0
+        ]
+      ],
+      "states": 28.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "2c76e5aa4bf6a19701a60f7b30bc85b4d680052228fecadbb2847be1f33ad3f6",
+      "id": "level-064",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "0062277644f0378eb3bdf566dc7401c99914660cefa79eee4201dedee9035a5c",
+      "id": "level-065",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 372.0,
+      "expanded": 446.0,
+      "fingerprint": "10ed59abd6e7162e973f17f3974f3946f73a9e176c512c825dc1a108cba55c5b",
+      "id": "level-066",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          1.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 446.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "9d58d616e000d9ee00fcc86be31302737ae3df27f82b8d38d218cf78b3dd51f2",
+      "id": "level-067",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          1.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          7.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "8c82be676e9d56d8f599e84030eb5d60675f04c2a7151f4cc2351784cf39bbdc",
+      "id": "level-068",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          5.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 9.0,
+      "expanded": 9.0,
+      "fingerprint": "f9052bc266f2824b19c57f1a0748b9bee6352cb27f8b3ccfe0d45bdf14981ee8",
+      "id": "level-069",
+      "minimum_moves": 10.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ]
+      ],
+      "states": 9.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "ad6332e980d6c12b34a0a91bf2c4716b13a1ca5469dc88bbd7b90f6e64ab9b22",
+      "id": "level-070",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          7.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "456605d062911e4ec69fadf94944ecbaed6c3af9acdcdaae6db7b1410bed8dc6",
+      "id": "level-071",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "0bf49c1c8a3fe1d9ad0b50bc7ca9719c9500eb124cee3038930a04ea4dbf368d",
+      "id": "level-072",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          1.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "fdb869a30d002a34eb32f625521794e927d9723cfe7dc8480a24c10165655774",
+      "id": "level-073",
+      "minimum_moves": 12.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          5.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "ebf113645fea74c6a9ae507761e1ad81b1361de7341237efb78d8f7bd09eb826",
+      "id": "level-074",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          7.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "67a7234c4f9334aab6704db4eab045ad4fa29ecb8420bcf28dbe9c9c803243e6",
+      "id": "level-075",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          2.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 302.0,
+      "expanded": 227.0,
+      "fingerprint": "c63f962faa8c3f3a21caa286026b5797407961480d6d39a0f6473c9a773031b6",
+      "id": "level-076",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          7.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          7.0,
+          5.0
+        ]
+      ],
+      "states": 227.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "a155d47fed0b3b8df7c670b250e3a4544a94056f6549e8b4df30dbb02b21e3ab",
+      "id": "level-077",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          4.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          7.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 312.0,
+      "expanded": 237.0,
+      "fingerprint": "d7929ad51e865c04dd7b57bd6c79be484373deff0fac39284d6027214172dcbe",
+      "id": "level-078",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          2.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 237.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "2578b0909d24a01fc9cc866bc8835f5d0963feb4656a0281fd763666b2b38449",
+      "id": "level-079",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "b0347ac3a290112125ed5b346f34b910e1990f889787d4e0d1765ca77aa6a330",
+      "id": "level-080",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          5.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          5.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 233.0,
+      "expanded": 234.0,
+      "fingerprint": "a29029492485daad6b5b61bec49ef96dac8231fcc347c8900fa8679bd6413efa",
+      "id": "level-081",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          6.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ]
+      ],
+      "states": 234.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "a269465bebf11f50d1baa08bb88e323bdacf8ccfc0c793f692a507e80cd035a8",
+      "id": "level-082",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 1.0,
+      "fingerprint": "6102549d0881cd31522bb3087d0140b63655b99282b197ef0a25e21124e69c82",
+      "id": "level-083",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          4.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "85753cada2f42a2f53d5d945c22582d8703fbd624519f9f01bafea9424e3879b",
+      "id": "level-084",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          2.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          5.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "4795a61410aa9bdcb8ac63ef7133134f1176b6297ed48a8a3c9cc31dfd95a230",
+      "id": "level-085",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "60ef89aff15aed7bacc75aa02ebb318095099155649c1aab41e91c73fa657b50",
+      "id": "level-086",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          8.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 0.0,
+      "expanded": 0.0,
+      "fingerprint": "3235ef500704d1c38781e178ffc143db27ed78655887871279e67d9ea5f9298b",
+      "id": "level-087",
+      "minimum_moves": 13.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          5.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 630.0,
+      "expanded": 689.0,
+      "fingerprint": "846c68585f407f11d2aecc672cb19fe396506c1f147ee472a4e074c7a4d060bc",
+      "id": "level-088",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          4.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ]
+      ],
+      "states": 689.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "119346fe845c9c0822a117c85f9eec88bc0d7a1250eeb7cb592f26f3077877f6",
+      "id": "level-089",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          5.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "3ef0efbebc7a42807d0920bfa648f8e800e655904b69cf9caea565e55deda2b8",
+      "id": "level-090",
+      "minimum_moves": 11.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          7.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          5.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "bd474edc3828cf24d74ff806a5112e0e47db0fb7e9a784fa0209cfc14b8c2b79",
+      "id": "level-091",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          6.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "a452a48ec63f8e037f9c7e178c269c17df76864ba6c5758ecd083320ea7947c4",
+      "id": "level-092",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "0eb7a39a6f4d3813e94746bf7b48a8361e1d2ab3099001d8457b32aa62bd7d06",
+      "id": "level-093",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          8.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 209.0,
+      "expanded": 161.0,
+      "fingerprint": "16e241211d96e0a72dfe40b938f1e21694db8ba466e7a51cc2ad73fcc79d8f65",
+      "id": "level-094",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          1.0
+        ]
+      ],
+      "states": 161.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 342.0,
+      "expanded": 251.0,
+      "fingerprint": "902fb804e8248f5979588b6bee2498ccf46433c39dbbbd4761dcb55b7c8a91cd",
+      "id": "level-095",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          0.0
+        ]
+      ],
+      "states": 251.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "2c4b120b48e8626c979f7437600eab587bf1baf2cb4a403d4835c56c8ec4c917",
+      "id": "level-096",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          2.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          7.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "c74f9d1809822da466874aaf82b3f1cc9e77729254874b2066ec908d088dd03e",
+      "id": "level-097",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          6.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          1.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 740.0,
+      "expanded": 777.0,
+      "fingerprint": "749d70be4ee6062c22e08b815c15fe3e3839086e98288014742ef112ad401010",
+      "id": "level-098",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          6.0,
+          2.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          4.0
+        ]
+      ],
+      "states": 777.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 124.0,
+      "expanded": 92.0,
+      "fingerprint": "2a886e0567ff47f896e026e3804a3b6d1ef38a7673feb46bc2554febe6e2a97a",
+      "id": "level-099",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          5.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          5.0,
+          4.0
+        ]
+      ],
+      "states": 92.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "169109039df1632bc3fd74ee721a3b2ba0f81fe768a72987f640f97d9053651c",
+      "id": "level-100",
+      "minimum_moves": 15.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          6.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 65.0,
+      "expanded": 52.0,
+      "fingerprint": "36194200a53f6a3a216731ecc74e7c1b2103fb23a853397ae385926220df6a46",
+      "id": "level-101",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          2.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          4.0,
+          5.0
+        ]
+      ],
+      "states": 52.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "58597fc216d9dfeb9c84adcbd7bf5e72e75d0215b472f6a0ec9758821d146c8f",
+      "id": "level-102",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          2.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "e7b4771c7e4f877b224917c13356fdc586cda22112415d38ec438acfe1fac1e1",
+      "id": "level-103",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          8.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3.0,
+      "expanded": 1.0,
+      "fingerprint": "bc2c2aa0ce7a3e225dc3cc0e3078a97b88c77473eeee338aaae3f78413289a63",
+      "id": "level-104",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          3.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          4.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "58b1c999b3883ce7789ed0e88ff3cff90eeeabb8e3f5aea3cce249c489d792cb",
+      "id": "level-105",
+      "minimum_moves": 17.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          1.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "22f86a13360fdb93a6f81e1ba016da4adbddf3fbb6caba5edc542478382d3b33",
+      "id": "level-106",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          4.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "368c1a5da7cd2757a48d71f385274a98dcb000d2215cb89ddc59e41b1f36d1e4",
+      "id": "level-107",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          7.0,
+          9.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          4.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "d8d047e6327790830e028a6cb28d9309c1520ecf36df99b608cb943041dca659",
+      "id": "level-108",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          4.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          4.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "f37fed6979c3775f039dc5453f19b40a9b23a1f27c05f9f852359b92d1809ed5",
+      "id": "level-109",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          6.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "f7e41ffa3749431398d00e3bf67623d9f50783415e95fc72d72fde07bf3ed5fc",
+      "id": "level-110",
+      "minimum_moves": 14.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          9.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          6.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 581.0,
+      "expanded": 316.0,
+      "fingerprint": "8d7e1652e960ab512204de43b291083e2e5aa831df010ba67c8459b46dce6ce8",
+      "id": "level-111",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          5.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          9.0
+        ]
+      ],
+      "states": 316.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1437.0,
+      "expanded": 753.0,
+      "fingerprint": "54773e1b4f55683aede88f2f34180df0e3a59c297f56b3344bc3ebde02b2aa4f",
+      "id": "level-112",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          7.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          7.0,
+          9.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          7.0,
+          6.0
+        ]
+      ],
+      "states": 753.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "3a4c4734d752b474dcd7598580a1ee642e05a9c5e25200fd10d92fb9f168812d",
+      "id": "level-113",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          8.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          9.0,
+          8.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1279.0,
+      "expanded": 1167.0,
+      "fingerprint": "223988b985ac74e5e6e737914518dd320de134579a59cb41ec5168d4671f7a8a",
+      "id": "level-114",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          2.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          9.0,
+          3.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          4.0
+        ]
+      ],
+      "states": 1167.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "48f1ef152c17eaef0462198b778da91b5718337c61c4ce0a299e4efe2c695cd7",
+      "id": "level-115",
+      "minimum_moves": 18.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1327.0,
+      "expanded": 730.0,
+      "fingerprint": "15107bfa860d1290968d0eb1a65254c01681250267ac328415dd1011ab6253ce",
+      "id": "level-116",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          8.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          8.0,
+          1.0
+        ]
+      ],
+      "states": 730.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "8dc971dfcf3e86d4462bb04d0dacdfe783a90964613acd86234ee45a087bfaf7",
+      "id": "level-117",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          8.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          9.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "9999200dbd10589f4fc9f06068fda55f65c9b2ae098df102ba00677f5fabf9cd",
+      "id": "level-118",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          9.0
+        ],
+        [
+          7.0,
+          9.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          8.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 5313.0,
+      "expanded": 2701.0,
+      "fingerprint": "5b98eefc304388f6250daabece662fda0a4800aca0f0376074be1d7f12f2fc72",
+      "id": "level-119",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          3.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          3.0,
+          7.0
+        ]
+      ],
+      "states": 2701.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "e437b990886da47b891c8313788c6d5331d7a6358af94b2748a12d292962a6d3",
+      "id": "level-120",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          9.0,
+          1.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 37.0,
+      "expanded": 22.0,
+      "fingerprint": "c6536312d129954cfe21e767bbb0ea7c2d01860c64aaf17ae95921131a7c5bed",
+      "id": "level-121",
+      "minimum_moves": 19.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          9.0,
+          3.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "states": 22.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "f5cd82cdd38c5da7ff46025e1176a7eb171d6e1c65e47c08a861f6f2e14bb9e3",
+      "id": "level-122",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          9.0,
+          3.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3279.0,
+      "expanded": 2534.0,
+      "fingerprint": "8676dfcab77c68457dba235bd3c79f8114fdd3bed0a0852a73f449fc663eee96",
+      "id": "level-123",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ]
+      ],
+      "states": 2534.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 12820.0,
+      "expanded": 11663.0,
+      "fingerprint": "08c1a49368ed61155c4e662ac8896c541c0f681b6433683229373eb46db82b00",
+      "id": "level-124",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          9.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          9.0,
+          3.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          1.0
+        ]
+      ],
+      "states": 11817.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 141.0,
+      "expanded": 84.0,
+      "fingerprint": "8e42a97b6598376954742ab1ad6b30ddd871fdba97499c18d7a62cc27bad0687",
+      "id": "level-125",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          5.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          1.0
+        ]
+      ],
+      "states": 84.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 473.0,
+      "expanded": 232.0,
+      "fingerprint": "0a081d4b38bf54d59e627844b04bca7fb7b6101199cc4242dce68cf83022ac98",
+      "id": "level-126",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          9.0,
+          8.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          7.0,
+          9.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          1.0,
+          4.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          7.0
+        ]
+      ],
+      "states": 232.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2388.0,
+      "expanded": 1223.0,
+      "fingerprint": "4f2dbb111855da43df528d9a67b857dda52d82e55f6e512c4532b026481a8af4",
+      "id": "level-127",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          4.0,
+          1.0
+        ]
+      ],
+      "states": 1223.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "feb0806e373f2a4bf2f3523b4c112dcc0219ab84e76a5851c9777df6c2c1836e",
+      "id": "level-128",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          5.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 113.0,
+      "expanded": 69.0,
+      "fingerprint": "116ca698b9ba8d3f91a9df1e50612ecbc87b26ecffb455841172ee5987007bd6",
+      "id": "level-129",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          4.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          8.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          7.0,
+          9.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          8.0,
+          7.0
+        ]
+      ],
+      "states": 69.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "7a5a0c067a2357603003e5861d7afece313f4ba700351c39518c336e9b685296",
+      "id": "level-130",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          3.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          7.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1281.0,
+      "expanded": 551.0,
+      "fingerprint": "6fe76fefd684216c26ebc59a81c89616bdf84f9f827b19eccb3762ea18d5439c",
+      "id": "level-131",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          10.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          1.0,
+          10.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          10.0,
+          6.0
+        ],
+        [
+          10.0,
+          1.0
+        ],
+        [
+          10.0,
+          6.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          2.0,
+          5.0
+        ]
+      ],
+      "states": 551.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1243.0,
+      "expanded": 562.0,
+      "fingerprint": "090bd2bad5b5aed8e2e33bc6cd5a9531c35114afb6c563f1739caeee3ad4aa62",
+      "id": "level-132",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          10.0,
+          5.0
+        ],
+        [
+          10.0,
+          1.0
+        ],
+        [
+          5.0,
+          10.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          10.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          10.0,
+          1.0
+        ],
+        [
+          4.0,
+          10.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          10.0,
+          0.0
+        ]
+      ],
+      "states": 562.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 3.0,
+      "expanded": 0.0,
+      "fingerprint": "73647876843cbcda2477800cd6c9a76f6384c31cc09613b2c3b8a874ff97be73",
+      "id": "level-133",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          2.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          10.0,
+          2.0
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          8.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "079accd6a454983431a2d2f0746e40d159451938c4ebd21a7557257b7f0ac494",
+      "id": "level-134",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          7.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          9.0,
+          8.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          4.0,
+          10.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          0.0,
+          7.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1.0,
+      "expanded": 0.0,
+      "fingerprint": "9ed0171b390ef37c3351c0eb36be908f9857a301de08896a43d76debb07217db",
+      "id": "level-135",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          10.0,
+          9.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          3.0,
+          4.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          10.0,
+          7.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          9.0,
+          3.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "e0d8dfd1e44ab889ffea09ce31bce538e38bafe789a94cca02f1fe034d043084",
+      "id": "level-136",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          10.0,
+          7.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          5.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1276.0,
+      "expanded": 807.0,
+      "fingerprint": "17d1c78b4942b38b5eaec69dec650ffb8afc11b51b1c41e34c71dd2e4f514fac",
+      "id": "level-137",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          2.0,
+          8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          10.0,
+          3.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          6.0,
+          10.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          10.0,
+          7.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          1.0,
+          10.0
+        ],
+        [
+          1.0,
+          5.0
+        ],
+        [
+          3.0,
+          10.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          3.0,
+          8.0
+        ]
+      ],
+      "states": 807.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "c6ac1c07f6ab9efe881866f90cb8f77b7bfe2b1402732fd878c521d51a8e5dd2",
+      "id": "level-138",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          6.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          2.0,
+          10.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          10.0,
+          5.0
+        ],
+        [
+          8.0,
+          10.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1789.0,
+      "expanded": 1237.0,
+      "fingerprint": "6630272c0c997aa76ac72003f0d04d502f9356584ffec96a018e59ca815c1671",
+      "id": "level-139",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          7.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          10.0,
+          3.0
+        ],
+        [
+          8.0,
+          10.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ],
+      "states": 1237.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "3d27e7bd0e8616cbb5bc7af6a35fe7e30c52b08788bf4632bb876b9b5cc0b28c",
+      "id": "level-140",
+      "minimum_moves": 16.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          5.0,
+          7.0
+        ],
+        [
+          7.0,
+          10.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          1.0,
+          10.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          6.0,
+          4.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          8.0
+        ],
+        [
+          3.0,
+          6.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "dda58ea0c81238c04854a4649e22586a9fe4bbf7139456ba2e5adc1f9bd0dc6c",
+      "id": "level-141",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          1.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          8.0,
+          6.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          5.0,
+          6.0
+        ],
+        [
+          9.0,
+          5.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          10.0,
+          6.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          7.0,
+          4.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          8.0,
+          10.0
+        ],
+        [
+          6.0,
+          8.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "eb842c35082e7412546efea9ef600cf587be218c05f0f1c515c296a8e70fec87",
+      "id": "level-142",
+      "minimum_moves": 24.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          5.0,
+          10.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          2.0,
+          10.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          10.0,
+          3.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          4.0,
+          10.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          5.0,
+          10.0
+        ],
+        [
+          7.0,
+          10.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          4.0,
+          9.0
+        ],
+        [
+          4.0,
+          5.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 7762.0,
+      "expanded": 4657.0,
+      "fingerprint": "089d78b71e1be8aa3fb3967511568cae86d91c7872c57546e5541063f928da27",
+      "id": "level-143",
+      "minimum_moves": 24.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          10.0,
+          5.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          2.0,
+          10.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          8.0,
+          2.0
+        ],
+        [
+          4.0,
+          8.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          9.0,
+          3.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          5.0,
+          3.0
+        ]
+      ],
+      "states": 4657.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 384.0,
+      "expanded": 146.0,
+      "fingerprint": "cc7280c22a24e57f03d287fa45265a74dc0a253631009897d8b0cdf967f8c2f6",
+      "id": "level-144",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          3.0,
+          9.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          7.0,
+          1.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          5.0,
+          7.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          7.0,
+          2.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          4.0,
+          6.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          5.0,
+          10.0
+        ]
+      ],
+      "states": 146.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "2fe6d573dc824f8b71cff01845b8eaaaf68e39218a17f0fcf053240a302942b3",
+      "id": "level-145",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          9.0,
+          6.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          3.0,
+          9.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          7.0,
+          5.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          10.0,
+          7.0
+        ],
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 1482.0,
+      "expanded": 586.0,
+      "fingerprint": "e37f92cab029b5c2fac31775025943822dd9d6040ec77054a9b0f472a9a75634",
+      "id": "level-146",
+      "minimum_moves": 25.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          10.0,
+          2.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          7.0,
+          10.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          1.0,
+          10.0
+        ],
+        [
+          5.0,
+          4.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          2.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          6.0,
+          10.0
+        ],
+        [
+          3.0,
+          6.0
+        ],
+        [
+          7.0,
+          8.0
+        ],
+        [
+          7.0,
+          10.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          9.0,
+          7.0
+        ],
+        [
+          9.0,
+          3.0
+        ],
+        [
+          9.0,
+          1.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          4.0,
+          7.0
+        ]
+      ],
+      "states": 586.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 5123.0,
+      "expanded": 2019.0,
+      "fingerprint": "b178ab8b01e214a7c495ec9f7a6199cae309b4fe57cd502ff278909fcba46100",
+      "id": "level-147",
+      "minimum_moves": 25.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          7.0,
+          8.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          5.0,
+          3.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          7.0,
+          0.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          1.0,
+          8.0
+        ],
+        [
+          1.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          7.0,
+          3.0
+        ],
+        [
+          6.0,
+          7.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          6.0,
+          2.0
+        ],
+        [
+          8.0,
+          4.0
+        ],
+        [
+          8.0,
+          3.0
+        ],
+        [
+          8.0,
+          7.0
+        ],
+        [
+          9.0,
+          4.0
+        ],
+        [
+          9.0,
+          3.0
+        ],
+        [
+          9.0,
+          6.0
+        ]
+      ],
+      "states": 2019.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "f95cbead145c9b4a9116dd3d646680baf8f4ee4fff7acd8c25d69dd76826ae20",
+      "id": "level-148",
+      "minimum_moves": 21.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          8.0
+        ],
+        [
+          5.0,
+          8.0
+        ],
+        [
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0
+        ],
+        [
+          2.0,
+          6.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          3.0,
+          10.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          10.0,
+          5.0
+        ],
+        [
+          10.0,
+          8.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          0.0,
+          10.0
+        ],
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1.0,
+          10.0
+        ],
+        [
+          6.0,
+          1.0
+        ],
+        [
+          6.0,
+          2.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 2.0,
+      "expanded": 0.0,
+      "fingerprint": "137884a7546209f3bbe820ddb248b15efcd4469201bc469d12656c0fe8e52c66",
+      "id": "level-149",
+      "minimum_moves": 20.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          0.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          10.0,
+          1.0
+        ],
+        [
+          5.0,
+          0.0
+        ],
+        [
+          10.0,
+          5.0
+        ],
+        [
+          10.0,
+          3.0
+        ],
+        [
+          9.0,
+          10.0
+        ],
+        [
+          9.0,
+          0.0
+        ],
+        [
+          8.0,
+          9.0
+        ],
+        [
+          2.0,
+          9.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          2.0,
+          8.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          6.0,
+          10.0
+        ],
+        [
+          6.0,
+          3.0
+        ],
+        [
+          9.0,
+          6.0
+        ],
+        [
+          5.0,
+          9.0
+        ]
+      ],
+      "states": 1.0,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-verified-witness-v3",
+      "elapsed_ms": 880.0,
+      "expanded": 343.0,
+      "fingerprint": "b705c21175dbdf03b4997ba49dbc164ce391e82f0bf62c253684d06cdb68dc05",
+      "id": "level-150",
+      "minimum_moves": 22.0,
+      "reason": "all_lower_cost_states_exhausted",
+      "rules_version": 3.0,
+      "solution": [
+        [
+          10.0,
+          1.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          3.0,
+          7.0
+        ],
+        [
+          4.0,
+          3.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          5.0,
+          1.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          8.0,
+          0.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          1.0,
+          9.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          6.0,
+          9.0
+        ],
+        [
+          7.0,
+          6.0
+        ],
+        [
+          1.0,
+          7.0
+        ],
+        [
+          4.0,
+          1.0
+        ],
+        [
+          4.0,
+          10.0
+        ],
+        [
+          8.0,
+          1.0
+        ],
+        [
+          2.0,
+          7.0
+        ],
+        [
+          5.0,
+          2.0
+        ],
+        [
+          8.0,
+          5.0
+        ],
+        [
+          8.0,
+          7.0
+        ]
+      ],
+      "states": 343.0,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 3
+}

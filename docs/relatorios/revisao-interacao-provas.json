@@ -1,0 +1,6343 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 30000,
+  "max_states": 250000,
+  "mode": "validate",
+  "pack_id": "campaign",
+  "pack_version": 1,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "b9ca72b934bf40e8d4567c0005692a143df09cf4f4c69bbf7b03cf9d93323cbb",
+      "id": "easy-001",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 0,
+      "expanded": 4,
+      "fingerprint": "9e1aebd84b120bdb2713e6e69e2d37e583aaf9430368b318a0f78c9ef604b82d",
+      "id": "easy-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 9,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 6,
+      "fingerprint": "28858f4c51f4bdc5a58243eb3ec78b63f3b786f17693fe65720b69f2db76e4e4",
+      "id": "easy-003",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 13,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "19934032203ea61a233909552ecdd34e59d4d36ca0aadd50809f52472a33e9d1",
+      "id": "easy-004",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "f6d6f725ce37c59fba90cc6dbbdc1c55edec774de72308cd1ec51d9a2b173560",
+      "id": "easy-005",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 28,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 4,
+      "fingerprint": "507272da6729321d62a51c78401027e6d21287f25a4b0f5d177f7785c3bdcae9",
+      "id": "easy-006",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 17,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 5,
+      "fingerprint": "99a0b8f13acff76e32c17cd5c5f30d43a032385615d3d326e9d5c59f9db9a06b",
+      "id": "easy-007",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 20,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "8d826ab8a69e8b627d85438feda9565e727df86bedc4b766c13f4baafbb66ee2",
+      "id": "easy-008",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 34,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "0e21bcb0571d4662f4438c1fa41ef0407192427c192482db54db10ff135bafbc",
+      "id": "easy-009",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 37,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 11,
+      "fingerprint": "28d8d2107a1a9c9fc19d4824c123f5a2ab8f8a36352bd1581da670655055ba50",
+      "id": "easy-010",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 43,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 4,
+      "fingerprint": "443b1d647bfd4093132d6e3a8745ec6e6b1c3cc6053a10ec04772718491a4b24",
+      "id": "easy-011",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 21,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 4,
+      "fingerprint": "7eb53a8416edfbf4357458fa46584d2d8b65e25a9e92d4b547efda558bcb8656",
+      "id": "easy-012",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 20,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "c1d0fa572a64a7e2d16fa442d5ad48f7cb729b991046183a167c339a3e7d08e8",
+      "id": "easy-013",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 34,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 5,
+      "fingerprint": "d42e943e0cd7f8516ac7bdaf531c0e3989f32f7184af28197a1cdb7695559682",
+      "id": "easy-014",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 22,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 5,
+      "fingerprint": "984cd7fbbe4baf2b815b1e31ca117b523505a0902e23e6f51c0e5b9f8cf079b9",
+      "id": "easy-015",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 21,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "5473361f161f6e14d69c2f5935e16c109cced4006f98415d90daa14766f1bb4d",
+      "id": "easy-016",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 36,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "4dee8b9731faaa5ecaf4e1bcf96d11053ca1d20ee9b41d9ae739c928db3f845d",
+      "id": "easy-017",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 26,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "33724bf92f9c775df05b6e630898c2294bc26e9e57c17a3678b1b96cf6487202",
+      "id": "easy-018",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 23,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 2,
+      "expanded": 9,
+      "fingerprint": "52609db64568c8afea2c6376db9a0a49d4c675d02ca63569be854576b5da1bd1",
+      "id": "easy-019",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 37,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 15,
+      "fingerprint": "bec142f06082b86d5de975a1c31cfe4678c82a1ae722111b068082aab5fce698",
+      "id": "easy-020",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 64,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 4,
+      "fingerprint": "714ac65380365d4f745018ee186b29a7a0038b1151a7a8b8651d186ab4373f1c",
+      "id": "easy-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 18,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "dec023dc07fb94dc52d2e628c0972506fae13076f551e635f57924d758223d5d",
+      "id": "easy-022",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 24,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "a29921b993f5f5fdcdd3227c5b5292d378dc501ffbbffe32cc361a6420a268b5",
+      "id": "easy-023",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 25,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "452e2f2964e6b1f384c4fb406668bc96af7d23326bb3601c961a7e7ada5dce71",
+      "id": "easy-024",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 29,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "481451344b59567e7bcc400d2f53e6da9ebe8f758a69c92fbb7fdd59a645b6a5",
+      "id": "easy-025",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 37,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "c49eb6352e6bfbb2627282aa71dcd745e0d67f43370ae3ac651e71dfc974ef03",
+      "id": "easy-026",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 42,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "539fa99b519d4818529baf3933367c1710d2d5254102974acce9f9dd4ce5cc98",
+      "id": "easy-027",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 35,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "ed07389d42781f5d540de0e0b11d754a29b1ad8de475b28155240d399d1c752f",
+      "id": "easy-028",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 54,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "0ddb0fb4744d84aadd7aa9f234a1a798b8b5dddbb5d6fd214d27489585f98a3a",
+      "id": "easy-029",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 47,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "26642473567a1657fc611f7708a1b35d4a43f58041ef02e83209fa47a9d0531d",
+      "id": "easy-030",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 55,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "9ee0966d7e53cc64e366699b4bb58ad8e459bbf2d7df710df123a0e1e6696cd3",
+      "id": "easy-031",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 61,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "bb8d4137c223ecc01e12d2919c4b45367eae255d5a4e3493ac8337c1e5d0cf16",
+      "id": "easy-032",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 59,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "0f726241583300e8a7b939cc9946564f6a06fff7969fb3a6b1b7c9ba4e5a03b4",
+      "id": "easy-033",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 55,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "b6701509f34bf497e4c565f76bde7a05ac8ed1a43eff8ab80e09c8f902a4ca84",
+      "id": "easy-034",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 54,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 14,
+      "expanded": 6,
+      "fingerprint": "85a39cb4d6f6c28eb0b599aefa96ee26d1948d7c39a827c5b0678294a42fc01b",
+      "id": "easy-035",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 54,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 5,
+      "expanded": 5,
+      "fingerprint": "cfc0dca07666be2bebbbcc2f8ac4ed1d6a4de90bc960c81bf704f5fe9da98b9d",
+      "id": "easy-036",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 32,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 7,
+      "expanded": 5,
+      "fingerprint": "ad5492e91b486741868f2dfe54ba43fd5b37e62bf5c57d2a3b86e84accf33e6d",
+      "id": "easy-037",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 45,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 4,
+      "expanded": 5,
+      "fingerprint": "f219957bd09de4041212cf970bcad3a7899f709c2b79dd76fbfc9d90023a47e7",
+      "id": "easy-038",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 34,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 8,
+      "expanded": 6,
+      "fingerprint": "aa4afa5943f6ebd1f6b4110820e954f12d1999c7df8c8f7b598d3f5eafeaab54",
+      "id": "easy-039",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 40,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "6ab452bb702ec36a234e3dc66cdad5326d30ac60c81d5b4725119f689d5fbce7",
+      "id": "easy-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 40,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 6,
+      "fingerprint": "357a6e96799d2cbbb774789e68c038b93981a3b377758555ea5bfe382afc8616",
+      "id": "easy-041",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 53,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "c5d70b89be2d78bb5e8a0ee903f59c92dae4938b74c18a98c5936b1b2eb62df2",
+      "id": "easy-042",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 58,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 6,
+      "fingerprint": "11fee3a0b6be25cf05db3d31d358d05aa8c3dbbfd7c1912551cc3917e96f5ce0",
+      "id": "easy-043",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 55,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "d34bb25e0c6eddff599daf8b77fee190a1a49a0b4a7e6e8d58d090288704cbc4",
+      "id": "easy-044",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 40,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "3755dff55a7247c6f6c7f2441f2ff8a5ab6eae611ab66b494823c59f25ce5aaf",
+      "id": "easy-045",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 55,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 7,
+      "fingerprint": "06e9eb338dc8046d57eba464466a0efc431cb127e1393f4e31d4b47d4af33514",
+      "id": "easy-046",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 49,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "c631c51c6a2bb4e44a8305af9b3e6bd8bf46061e779ea5bedee2a93ccd74a358",
+      "id": "easy-047",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 7,
+      "fingerprint": "ac52fb453b48701bfbfa2a18b1a138d1cbf0d2cbbe0e3917a471903ca9f27e95",
+      "id": "easy-048",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 47,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 6,
+      "expanded": 8,
+      "fingerprint": "1347a15327542343212cdd21ed69557761cf82c61660756a74e3e9f91b6cb301",
+      "id": "easy-049",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 64,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "af1b5df1393c34b0f7b71f7b1087aff5335e282c2260e66ee6958453da890b40",
+      "id": "easy-050",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 63,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 4,
+      "fingerprint": "569b91f360c75e6f02fb77503b835410092a105c9b66d4525c238632425b7acb",
+      "id": "medium-001",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 20,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 5,
+      "fingerprint": "c25fa862f7991361af7366277e3acc717fec7f135d4bc28080845f882c5ab4fa",
+      "id": "medium-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 20,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 4,
+      "fingerprint": "ac44c88c3daa249f16229d30b4a091062bebd9c949af56b83696e134c214bbd6",
+      "id": "medium-003",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 4,
+      "expanded": 7,
+      "fingerprint": "3e694345274b547712a1089136c58a49ee6643d93a9ee92a475e7d21ccd76319",
+      "id": "medium-004",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 33,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "fc8adb3369190dcecfcadda55640785dc9c6adea62616b141891ce9bc62aaab0",
+      "id": "medium-005",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 38,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "490b3852404216d92935d37efb5f92e9d6436159dbf58b4c80748d15c9a75e2d",
+      "id": "medium-006",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 45,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "e5bd4235b9ca29f2a7fe528290fcf7dac2a82c498a83fef6db59ac5186f98b18",
+      "id": "medium-007",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 2,
+      "expanded": 7,
+      "fingerprint": "d4fa15a7edd4f7ff8e44f802e8b1d5d6a71bdf35b20c2c9ee3e7d5e4b1c7ee68",
+      "id": "medium-008",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 42,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 6,
+      "expanded": 10,
+      "fingerprint": "a977ebf6a444cebdbfa2f7efc260203c404ff2dfe376f0866691bdd46f5e549f",
+      "id": "medium-009",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 74,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 4,
+      "expanded": 9,
+      "fingerprint": "6b4444798f05e9206a206c17edfa7e51bb6d4a8d4d5587d7c79220efa47606e0",
+      "id": "medium-010",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 56,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "9e01c47faf9be65fc1e76aeb572f4ead36dcfd4ba2f52082d34ab4733213fc8a",
+      "id": "medium-011",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 28,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 7,
+      "expanded": 5,
+      "fingerprint": "dbfe054144ac05c9d655abadbb33e184b042204ff6bcaa1ced958117a274c0c8",
+      "id": "medium-012",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 42,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "8d4bf47c33083d282d5ccf71fd1d3b2443a3ce31c84785d48f8500ecbf91e8a7",
+      "id": "medium-013",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 41,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "fd6ce408c2493f5800ab2e47cf08ac91cea3b001cfaad042978ba5a2bbb44cd5",
+      "id": "medium-014",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 38,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 7,
+      "fingerprint": "a50828e5b90de0084aede95c34d61b1ac09e9d712046b3e928004b524c0d4017",
+      "id": "medium-015",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 43,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "835c7ccb5d14b2b34b437e7cc9f9879b9ffc52369280b278786e492abf23eec9",
+      "id": "medium-016",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 57,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 6,
+      "fingerprint": "1c79884d411af186f622f05a4b40bd8fc2841a17c4d2e01a900c877b35502199",
+      "id": "medium-017",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 54,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 7,
+      "fingerprint": "9382eb8d6c83ebeed6429426c5eb18873ef8d662fae83b26e56f165c23f24b7f",
+      "id": "medium-018",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 49,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 5,
+      "expanded": 10,
+      "fingerprint": "5e187a343b73c81b88f833e92f9e1c5346b8af7d9be03a8a3b9099952127efc8",
+      "id": "medium-019",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 63,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 3,
+      "expanded": 8,
+      "fingerprint": "bc2d0de8f70b01513c6d73ddf7263bd26894e389c865d9590df7132ce2976955",
+      "id": "medium-020",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 53,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 4,
+      "fingerprint": "bc595ccfc4222c0b8a93129deb1928565b192e6f54703dee4bc661630ef856d2",
+      "id": "medium-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 24,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "5a86e66946cc7e24ab5605df9a228a6a2a984e05f9bf9f00f525b7cacc334856",
+      "id": "medium-022",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 38,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "23825d7e4eda2ea7905afb3cce111a1c3e7399bf9bd4d7f3a639f5af3312c459",
+      "id": "medium-023",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 47,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 6,
+      "expanded": 6,
+      "fingerprint": "69a5f77d0be0a43aaf5b6cdab1d3b7abfbb27e627de491923e2ea84d65071ea0",
+      "id": "medium-024",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 51,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "a6c2db27b0970141d8b5614e7d98b9d61ec5f2a2b2b2c37eb0c1cd68f99a7159",
+      "id": "medium-025",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 29,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 7,
+      "expanded": 7,
+      "fingerprint": "9af15fda6d20b6d9e1ab5b56afc9cc6fb973cdc82d664da436caa081f93b2194",
+      "id": "medium-026",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 70,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 7,
+      "expanded": 7,
+      "fingerprint": "70ff7b8e9cbf219a9fa6d96ec650391c87d57411c60db9b8a4a6d8403cd32334",
+      "id": "medium-027",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 71,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 8,
+      "fingerprint": "3252deadd1b0e84522bbce3f38e6a39a114bc1f87455997ca47961b360ab446c",
+      "id": "medium-028",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 57,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 8,
+      "expanded": 8,
+      "fingerprint": "de08c124b49da1b4905075ba6164ae8a4d9d82d0e65a36e4d0a0561f07b86bb6",
+      "id": "medium-029",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 81,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 9,
+      "expanded": 8,
+      "fingerprint": "0e79d4e3e57b700a162c7c44f2ec6a019918705840432b21849016e0a6162899",
+      "id": "medium-030",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 96,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 5,
+      "expanded": 8,
+      "fingerprint": "f029c476ef32e3d328864126954c0c2047fbbcd3760be1a30ffa0a16b6ef1aec",
+      "id": "medium-031",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 70,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 19,
+      "expanded": 21,
+      "fingerprint": "0639b615f9f002ab95fbd9c4e7951a2d87d5674e90161822559c5a1891e85694",
+      "id": "medium-032",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 165,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 8,
+      "expanded": 9,
+      "fingerprint": "3c6092aa68704bc2d5920be36340971122006ce7f22890c580b033858134132c",
+      "id": "medium-033",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 85,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 8,
+      "expanded": 9,
+      "fingerprint": "ad6d730f9c4e001095d6bad5d0038c20d953c51d85f7b78eea06521cb47af50a",
+      "id": "medium-034",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 96,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 11,
+      "elapsed_ms": 7,
+      "expanded": 11,
+      "fingerprint": "292a1265e3dff1057806c74df9deac4ccbd3b8641710e1fd39a0497b830d08f1",
+      "id": "medium-035",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 100,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 5,
+      "expanded": 5,
+      "fingerprint": "3e3e34504962ec96737663bab1de25ee09b9ac7d9a166408282d2f0f36f7a5c8",
+      "id": "medium-036",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 51,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 6,
+      "fingerprint": "7acfaa7874b85831bfab074ec298d96a21aaafcbea7e5d3cdb11fe41b75e9ce1",
+      "id": "medium-037",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 64,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 6,
+      "fingerprint": "c287e9d7a51c38c1a4a93d1a41bc74a8a7c8c7bc527d9495ba22965c01250666",
+      "id": "medium-038",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 58,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "d6be4b44b0a261e5791d44dd5d4a61712b6e6544477ef9427f92579c2cf71bdb",
+      "id": "medium-039",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 59,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 7,
+      "fingerprint": "e059397f529c45a3ae173bbe78dbc42afdc85cea1001c29ff040b76e9263df73",
+      "id": "medium-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 60,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 7,
+      "expanded": 7,
+      "fingerprint": "5c4c2e74600661ecb387846388c44faf6861dbd1b50cd83b8d71e6f72f24b82d",
+      "id": "medium-041",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 74,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 8,
+      "fingerprint": "8590cc821df186d0afb7be70082df5697a39497980624eb285591ed328b39edb",
+      "id": "medium-042",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 61,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "88d65e38f87adfd6462a6518d86bdbb5314a1638e88b6831b74a731867cfa17a",
+      "id": "medium-043",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 65,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 8,
+      "expanded": 7,
+      "fingerprint": "436b32713bc1f0f7705075617283dc70404e89a6c013f1877df26ca7e17c1aa8",
+      "id": "medium-044",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 72,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "933614226e2a84f86727725203148424086fb32aee182bddda55235d9cde272a",
+      "id": "medium-045",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 65,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 9,
+      "expanded": 16,
+      "fingerprint": "26ad3decb385e98b80e44812d22a02034ac0950486792544daa69c8238b2121f",
+      "id": "medium-046",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 110,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 7,
+      "expanded": 8,
+      "fingerprint": "4a5b5c3e4e628191c7774e2a131b19f743db5abf7787757d04beb8771452e84f",
+      "id": "medium-047",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 81,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 8,
+      "expanded": 9,
+      "fingerprint": "5d1ff51d5a75614e8c0801ac62b2b4deb28c6aab1b1b12a061fc5c05c8268011",
+      "id": "medium-048",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 87,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 13,
+      "expanded": 15,
+      "fingerprint": "3bb1dcc757cdf079f954413e02058772d3662c36c038b3fbae56e7c7c28cb63b",
+      "id": "medium-049",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 135,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 11,
+      "elapsed_ms": 17,
+      "expanded": 17,
+      "fingerprint": "bd96f9c7902f4defb0ab4e587986899f74050e13a0066da881069d8fda9ac2b1",
+      "id": "medium-050",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 191,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "e485dd21618b7c13385a55501152abf5fc325e0b3ecfa1057533e55e0de50a04",
+      "id": "hard-001",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 17,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 4,
+      "fingerprint": "9c588676ba45fe9a4655f729cfc770d945bc3f1108745562d5260d0082912b58",
+      "id": "hard-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 22,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 5,
+      "fingerprint": "1212e381aa583ebe44a1a54af2cbab4f9ae91ca196e2d40e4a61162f6a21a137",
+      "id": "hard-003",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 14,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "eed35001f75372f81645dd69e67c0bdac9d7e913fe5e5eb7b21bb0b9ef1cd842",
+      "id": "hard-004",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 50,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 6,
+      "fingerprint": "66e3f0f8e2ace472df577ff3ecd0ea0f2fddc9f0cbcf9258f73e54ccefcace6f",
+      "id": "hard-005",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 45,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "ad8d807d8023d8937abc91cae5f602948eab250e66c983e15d47f6b10bcbad59",
+      "id": "hard-006",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 63,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 12,
+      "expanded": 18,
+      "fingerprint": "ea1511f1439ca28c0fe56c85ff876a5b5bce63632fbc65ac196fc438033fb99b",
+      "id": "hard-007",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 134,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 7,
+      "expanded": 8,
+      "fingerprint": "b2ca7b1fe90c1850f7c4fe4e818887e663fac06cde78c0e4de5dc19e25b7a9e5",
+      "id": "hard-008",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 82,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 7,
+      "expanded": 10,
+      "fingerprint": "a0c5fa2ae25d3bd2ac4fb268fad9671acbab841042ca1f127a33feb0484df5b6",
+      "id": "hard-009",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 78,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 5,
+      "expanded": 9,
+      "fingerprint": "2d1d3b8f90f0dccc9f727517e6a2fa90bf35159218ddafe64042d97df3e75d9f",
+      "id": "hard-010",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 66,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 4,
+      "expanded": 5,
+      "fingerprint": "a6ce0016e06fd737ecef15bb2a3a3bdfb87f83680ba65d6e6bf1086777db4a25",
+      "id": "hard-011",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 45,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 4,
+      "expanded": 5,
+      "fingerprint": "d09dbb543e15da4d39701d1fcd742b4c3e3eec3b5df7048f917cbf89aa33fbd8",
+      "id": "hard-012",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 43,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 6,
+      "fingerprint": "19d2157d0d5efb530a67f141586ab4ad543c227aac59ea174d5e323be153ae2e",
+      "id": "hard-013",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 52,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 7,
+      "fingerprint": "c5c2ed74c6ff7dee4e3618d3cdd651696542f440eb130a33ad9eb4d27eb70440",
+      "id": "hard-014",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 47,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 7,
+      "fingerprint": "2d54b15db877ebec458696d1115cf20736a62dc99f32ae1182dd4d0921e1e2f1",
+      "id": "hard-015",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 4,
+      "expanded": 8,
+      "fingerprint": "431c8053370c5db7bbad20a5dfe1380a62126528349b1d215bdedd30f40bff54",
+      "id": "hard-016",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 43,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 6,
+      "expanded": 7,
+      "fingerprint": "010d498d9adba12ce9cfab78d241bbf34d906b678e11f5996f5fdc3f451fee5d",
+      "id": "hard-017",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 70,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 7,
+      "fingerprint": "b01333104fd7da6b4bb8a1b4858b54d47b4e046521f3688ebf601c1ec5b2764e",
+      "id": "hard-018",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 7,
+      "expanded": 8,
+      "fingerprint": "767c949809017166904cdf7a1a99c6b28286e6bd75f81804ba767cba72a43f7c",
+      "id": "hard-019",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 76,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 7,
+      "expanded": 9,
+      "fingerprint": "fa50f030f4e1f05ce2a5fd9d16a8b802c6a940b5af8e3973d343fee0e3410715",
+      "id": "hard-020",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 81,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 4,
+      "elapsed_ms": 2,
+      "expanded": 4,
+      "fingerprint": "71224da1683ba74ad4276d381c6aac03f404c51e7cb5ea1ab05ccce736bb1704",
+      "id": "hard-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 30,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 5,
+      "fingerprint": "effec143d21fa3dd545b1143220f0018ce79ed37a85b2ffd2bf766e1ea1ac486",
+      "id": "hard-022",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 26,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 3,
+      "expanded": 5,
+      "fingerprint": "e68c32d5e235bc090bf3ea68976e93907af8a59e1fc471e942b322fa86d19b2a",
+      "id": "hard-023",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 35,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 6,
+      "fingerprint": "fa32978395883e1ee461b699a491946babb9b598ea7808ec269c36aeee341968",
+      "id": "hard-024",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 60,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 6,
+      "fingerprint": "03b0bd1af5400e0e2812c600aa2af582b68dc4809656f6612f1f0c6540ebf9f6",
+      "id": "hard-025",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 60,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 9,
+      "expanded": 7,
+      "fingerprint": "33bd0709a232d1e0aef61fd52b9c3859b3cbb68d18bfa44045f803ad9b7c530a",
+      "id": "hard-026",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 85,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 9,
+      "expanded": 7,
+      "fingerprint": "56fe104d041f259bc8978e4b22ef2e424b7272f930144838b90e7b4bcbc8a94a",
+      "id": "hard-027",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 81,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 7,
+      "expanded": 7,
+      "fingerprint": "9ee862982875d8c9b565de2a1e686fef9480ae196b0bb78e85d4a20b10b76992",
+      "id": "hard-028",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 80,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 10,
+      "expanded": 7,
+      "fingerprint": "8df28604eac9e57ed56a38d7d490581950879496b094f7e1f54e370cecd25f1e",
+      "id": "hard-029",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 90,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 8,
+      "expanded": 7,
+      "fingerprint": "08ce13a3645060ce32e5eba764a64dddf1135b79a8f618ebf8a338bcf07b1f9a",
+      "id": "hard-030",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 77,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 7,
+      "expanded": 9,
+      "fingerprint": "ee7575ff44cf56941f03de06337985c2da63c4bdd884c57626930491bd4e46b1",
+      "id": "hard-031",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 76,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 11,
+      "expanded": 9,
+      "fingerprint": "8601ca1eb04b3b9c7496e912f8c4e4b79e5bbe91cdbb6c9ca3b11ebae926e3d8",
+      "id": "hard-032",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 108,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 10,
+      "expanded": 9,
+      "fingerprint": "51f9966526c8cbdaf366f3bfa0e5728e19046b9f50897474eab0d5ffef6398ae",
+      "id": "hard-033",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 106,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 8,
+      "expanded": 9,
+      "fingerprint": "9ae0d4dfd5a5ca7b43097acd55b8d4f09c7ddbf0329a791fbf7b4787580633d4",
+      "id": "hard-034",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 102,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 9,
+      "expanded": 9,
+      "fingerprint": "f048fd3935258dd1961b3ca8b8393fcb0ef338a5fef3c2c05d96f648b8393ece",
+      "id": "hard-035",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 89,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 7,
+      "expanded": 6,
+      "fingerprint": "a6c043c2528c69ec92884b5b4a08706f7b9be8f141bb5372e48d88dd5177ad2c",
+      "id": "hard-036",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 67,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 6,
+      "fingerprint": "a604ff23e18128b652d8de429c1959ecedaeb39096dad28c0e6e9cca9ec976a1",
+      "id": "hard-037",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 56,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 7,
+      "expanded": 7,
+      "fingerprint": "105ca0ffaf6c5ae62e13a0485afaf58d7ea1767a9b9b8b9221f56dd7536a010e",
+      "id": "hard-038",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 66,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 6,
+      "fingerprint": "47b1523951f5e3b1c0a8b75822ddb3afae69d313dac611c6fc970c03db9c11ac",
+      "id": "hard-039",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 61,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 6,
+      "elapsed_ms": 8,
+      "expanded": 6,
+      "fingerprint": "1535c3123954c6ddea3a598d93f172832a9fee1256cacf0bea9d1390df23e086",
+      "id": "hard-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 76,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 9,
+      "expanded": 7,
+      "fingerprint": "07e003b29ed1b8f75e636f2a3fbfaff31bdd4d6dccfb71fd9c15140df9c24d1c",
+      "id": "hard-041",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 89,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 8,
+      "expanded": 7,
+      "fingerprint": "e066639ce42f3c6efd5986b38cd56933c20e9100cac853ea1baa9fb4bf31add5",
+      "id": "hard-042",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 70,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 7,
+      "elapsed_ms": 9,
+      "expanded": 7,
+      "fingerprint": "284a6afc56911da3be076c8a2646e14c06004270cba6e8486e89a264b19d527e",
+      "id": "hard-043",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 86,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 7,
+      "expanded": 8,
+      "fingerprint": "7455c38c625cf67b13cae1064508db8fdf467ab8155cb622dab4c5ac0aa35246",
+      "id": "hard-044",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 73,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 8,
+      "elapsed_ms": 9,
+      "expanded": 8,
+      "fingerprint": "51fe568b750572c5a895429fd6ac154220fce91b55951163ed4b545466f9e5b8",
+      "id": "hard-045",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 91,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 7,
+      "expanded": 10,
+      "fingerprint": "fc13f2035dc56c113621eb3488eb5f4487db05f688820473a25494a9257d2400",
+      "id": "hard-046",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 87,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 10,
+      "expanded": 10,
+      "fingerprint": "a634211352188de9b614f417fa02c696ee493f1d5eedf4f36d758319f14e55e5",
+      "id": "hard-047",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 99,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 11,
+      "expanded": 9,
+      "fingerprint": "761bedbe105e2bbfd08d2c1bdc46d1cd411a612404bff92436d8d7aab4723827",
+      "id": "hard-048",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 106,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 10,
+      "elapsed_ms": 12,
+      "expanded": 10,
+      "fingerprint": "8d670324254acc677b486bcd36acf66ddd1d05a5ea6e10bd800d6d5aff479ea1",
+      "id": "hard-049",
+      "minimum_moves": 10,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 115,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 11,
+      "elapsed_ms": 10,
+      "expanded": 11,
+      "fingerprint": "c705a30bfccc1e5900eac61762f3dd07192863c8d7b377013f85644c905c2b6d",
+      "id": "hard-050",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 115,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 2,
+  "schema_version": 1
+}

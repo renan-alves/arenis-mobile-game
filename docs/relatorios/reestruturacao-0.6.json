@@ -1,0 +1,86 @@
+{
+  "version": "0.6.0",
+  "version_code": 7,
+  "date": "2026-11-22",
+  "package": "com.frontmakers.arenis",
+  "rules_version": 3,
+  "schema_version": 3,
+  "levels": 150,
+  "all_minima_certified": true,
+  "modes": {
+    "free": 65,
+    "moves": 74,
+    "timed": 11
+  },
+  "minimum_moves_range": [
+    3,
+    25
+  ],
+  "tubes_range": [
+    3,
+    11
+  ],
+  "checks": 7386,
+  "suites": 19,
+  "cli_scenarios": 6,
+  "failures": 0,
+  "suite_summaries": [
+    "JOURNEY: 2708 checks, 0 failures",
+    "SCREEN AUDIT: 576 checks, 0 failures",
+    "RULES: 88 checks, 0 failures",
+    "UI: 13 checks, 0 failures",
+    "SOLVER/CATALOG: 237 checks, 0 failures",
+    "IDENTITY: 18 checks, 0 failures",
+    "LAYOUT/SETTINGS: 24 checks, 0 failures",
+    "CAMPAIGN: 2545 checks, 0 failures",
+    "POLISH: 37 checks, 0 failures",
+    "REFINEMENT: 44 checks, 0 failures",
+    "PROGRESS/THEME: 29 checks, 0 failures",
+    "SAND ENDING: 13 checks, 0 failures",
+    "PALETTE: 37 checks, 0 failures",
+    "MECHANIC INTRO: 28 checks, 0 failures",
+    "SESSIONS: 20 checks, 0 failures",
+    "LOCALIZATION: 883 checks, 0 failures",
+    "BASIC TUTORIAL: 12 checks, 0 failures",
+    "ANDROID SERVICES: 57 checks, 0 failures",
+    "ANDROID FLOW: 17 checks, 0 failures"
+  ],
+  "apk": {
+    "path": "build/android/arenis-journey-0.6.0-debug.apk",
+    "bytes": 251518152,
+    "sha256": "257097f33e02f95965126f12d8f4ae2e606a4be7ed9be5858de215ddbb7be97a",
+    "signature_verified": true,
+    "minimum_sdk": 24,
+    "target_sdk": 36,
+    "arm64_present": true,
+    "test_ads": true
+  },
+  "phone": {
+    "tested_this_version": false,
+    "reason": "USB device detected but ADB authorization unavailable; no installation performed."
+  },
+  "website": {
+    "commit": "d6edb478ae9c797ed912e8b8917175414b6135b7",
+    "workflow_run": 45082600182,
+    "deployment": "success",
+    "home_and_privacy_http": 200
+  },
+  "progress_reset": {
+    "local_file": "journey_progress.cfg",
+    "snapshot": "arenis_journey_v1",
+    "cloud_schema": 2,
+    "legacy_results_migrated": false,
+    "user_authorized": true
+  },
+  "screenshots": "docs/relatorios/imagens/jornada-0.6/",
+  "limits": [
+    "Real-device testing of 0.6.0 and new Saved Games namespace is still pending.",
+    "Difficulty curve and budgets need player feedback; optimality does not certify perceived challenge.",
+    "Store release signing, final policy declarations and publication remain separate work."
+  ],
+  "repository_source_check": {
+    "staged_source_files": 409,
+    "secret_pattern_findings": 0,
+    "private_configuration_and_signing_excluded": true
+  }
+}

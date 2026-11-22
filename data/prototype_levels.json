@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "levels": [
+    {
+      "id": "proto-easy-01",
+      "title": "Nível 1",
+      "difficulty": "Fácil",
+      "capacity": 3,
+      "minimum_moves": 5,
+      "lesson": "Toque na origem e depois em qualquer tubo destrancado com espaço. Um despejo conta uma jogada.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "coral"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "coral",
+            "aqua"
+          ]
+        },
+        {
+          "colors": []
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "easy"
+    },
+    {
+      "id": "proto-easy-02",
+      "title": "Nível 2",
+      "difficulty": "Fácil",
+      "capacity": 3,
+      "minimum_moves": 3,
+      "lesson": "Cores juntas formam um bloco. Se houver pouco espaço, apenas a quantidade que couber será transferida.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "aqua"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "coral",
+            "coral"
+          ]
+        },
+        {
+          "colors": []
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "easy"
+    },
+    {
+      "id": "proto-easy-03",
+      "title": "Nível 3",
+      "difficulty": "Fácil",
+      "capacity": 3,
+      "minimum_moves": 2,
+      "lesson": "Não há frasco vazio. Use os espaços livres distribuídos para completar as cores.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "coral"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "coral"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "aqua"
+          ]
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "easy"
+    },
+    {
+      "id": "proto-medium-01",
+      "title": "Nível 1",
+      "difficulty": "Intermediário",
+      "capacity": 5,
+      "minimum_moves": 9,
+      "lesson": "As camadas neutras são reveladas quando o bloco chega ao topo. Desfazer preserva o que você descobriu; reiniciar esconde novamente.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "coral",
+            "aqua",
+            "coral"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "coral",
+            "aqua",
+            "coral",
+            "aqua"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": []
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "medium"
+    },
+    {
+      "id": "proto-medium-02",
+      "title": "Nível 2",
+      "difficulty": "Intermediário",
+      "capacity": 5,
+      "minimum_moves": 3,
+      "lesson": "Complete o frasco da cor indicada para abrir a tranca. Desfazer a jogada de desbloqueio volta a trancar o frasco.",
+      "bottles": [
+        {
+          "colors": [
+            "gold",
+            "gold",
+            "gold",
+            "gold"
+          ]
+        },
+        {
+          "colors": [
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "gold"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "aqua",
+            "aqua",
+            "aqua",
+            "coral"
+          ],
+          "unlock_color": "gold"
+        },
+        {
+          "colors": [
+            "aqua"
+          ]
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "medium"
+    },
+    {
+      "id": "proto-hard-01",
+      "title": "Nível 1",
+      "difficulty": "Difícil",
+      "capacity": 7,
+      "minimum_moves": 3,
+      "lesson": "Combine o que aprendeu: espaço distribuído, camadas escondidas e uma tranca. Todos os obstáculos têm solução.",
+      "bottles": [
+        {
+          "colors": [
+            "gold",
+            "gold",
+            "gold",
+            "gold",
+            "gold",
+            "gold"
+          ]
+        },
+        {
+          "colors": [
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "coral",
+            "gold"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "aqua",
+            "aqua",
+            "aqua",
+            "aqua",
+            "aqua",
+            "coral"
+          ],
+          "hidden": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "unlock_color": "gold"
+        },
+        {
+          "colors": [
+            "aqua"
+          ]
+        }
+      ],
+      "version": 1,
+      "difficulty_id": "hard"
+    }
+  ],
+  "rules_version": 3,
+  "pack_id": "prototype",
+  "pack_version": 1
+}

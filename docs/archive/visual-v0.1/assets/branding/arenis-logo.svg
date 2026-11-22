@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="190" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">Arenis: Sand Sort Challenge</title>
+  <desc id="desc">Marca Arenis com um frasco de areia estilizado e letras verde-petróleo.</desc>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#D9E7E2" stop-opacity=".78"/>
+    </linearGradient>
+    <clipPath id="bottleClip">
+      <path d="M51 27h74v20c0 12 15 18 15 35v55c0 27-22 47-52 47s-52-20-52-47V82c0-17 15-23 15-35z"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(8 0)">
+    <path d="M51 27h74v20c0 12 15 18 15 35v55c0 27-22 47-52 47s-52-20-52-47V82c0-17 15-23 15-35z" fill="url(#glass)" stroke="#245358" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M47 27h82v18H47z" rx="7" fill="#83ADA8" stroke="#245358" stroke-width="7"/>
+    <g clip-path="url(#bottleClip)">
+      <path d="M30 113c20-12 37 10 59-1 18-9 31-4 54-15v72H30z" fill="#D7A35A"/>
+      <path d="M30 139c20-9 38 8 58 0 19-7 34-3 55-11v41H30z" fill="#D77F68" opacity=".92"/>
+      <circle cx="75" cy="105" r="5" fill="#F5F0E4"/>
+      <circle cx="96" cy="96" r="3.5" fill="#F5F0E4"/>
+      <circle cx="111" cy="108" r="3" fill="#F5F0E4"/>
+    </g>
+    <path d="M46 79c-4 10-4 23-2 33" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <text x="184" y="105" fill="#245358" font-family="Nunito Sans, Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="5">ARENIS</text>
+  <text x="190" y="148" fill="#53696A" font-family="Nunito Sans, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="4">SAND SORT CHALLENGE</text>
+</svg>

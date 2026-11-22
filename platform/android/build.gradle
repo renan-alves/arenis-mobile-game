@@ -1,0 +1,43 @@
+plugins { id 'com.android.library' version '8.6.1' }
+
+def config = new Properties()
+def configFile = file('services.local.properties')
+if (configFile.exists()) configFile.withInputStream { config.load(it) }
+def productionRequested = providers.gradleProperty('arenisProductionAds').getOrElse('false').toBoolean()
+def production = productionRequested && config.getProperty('production', 'false').toBoolean()
+if (productionRequested && !production) throw new GradleException('Set production=true in services.local.properties before requesting production ads.')
+def appId = production ? config.getProperty('admob.app_id', '') : 'ca-app-pub-3940256099942544~3347511713'
+def bannerId = production ? config.getProperty('admob.banner_id', '') : 'ca-app-pub-3940256099942544/9214589741'
+def interstitialId = production ? config.getProperty('admob.interstitial_id', '') : 'ca-app-pub-3940256099942544/1033173712'
+def gamesId = config.getProperty('games.project_id', '0')
+if (production) {
+    if (!appId.matches('ca-app-pub-[0-9]+~[0-9]+') || !bannerId.matches('ca-app-pub-[0-9]+/[0-9]+') || !interstitialId.matches('ca-app-pub-[0-9]+/[0-9]+'))
+        throw new GradleException('Configure the three AdMob production IDs in services.local.properties.')
+    if ([appId, bannerId, interstitialId].any { it.contains('3940256099942544') })
+        throw new GradleException('Production builds must not use Google sample ad IDs.')
+}
+if (!gamesId.matches('[0-9]+')) throw new GradleException('games.project_id must be numeric.')
+android {
+    namespace 'com.arenis.services'
+    compileSdk 36
+    buildToolsVersion '36.1.0'
+    defaultConfig {
+        minSdk 24
+        consumerProguardFiles 'consumer-rules.pro'
+        manifestPlaceholders = [arenisAdmobAppId: appId]
+        resValue 'string', 'arenis_games_project_id', gamesId
+        resValue 'bool', 'arenis_games_configured', (gamesId != '0').toString()
+        buildConfigField 'String', 'BANNER_ID', '"' + bannerId + '"'
+        buildConfigField 'String', 'INTERSTITIAL_ID', '"' + interstitialId + '"'
+        buildConfigField 'boolean', 'GAMES_CONFIGURED', (gamesId != '0').toString()
+    }
+    buildFeatures { buildConfig true }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies {
+    compileOnly files('../../android/build/libs/debug/godot-lib.template_debug.aar')
+    implementation 'com.google.android.gms:play-services-ads:25.5.0'
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+    implementation 'com.google.android.gms:play-services-games-v2:22.1.0'
+}

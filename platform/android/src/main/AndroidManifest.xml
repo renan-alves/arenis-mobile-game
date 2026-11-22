@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application>
+        <!-- Register the SDK lifecycle hooks before the first Activity. Saved Games remains opt-in. -->
+        <provider android:name="com.google.android.gms.games.provider.PlayGamesInitProvider" android:enabled="@bool/arenis_games_configured" />
+        <meta-data android:name="org.godotengine.plugin.v2.ArenisAndroid" android:value="com.arenis.services.ArenisAndroid" />
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="${arenisAdmobAppId}" />
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/arenis_games_project_id" />
+        <meta-data android:name="com.google.android.gms.games.SUPPRESS_GAME_PROFILE_CREATION" android:value="true" />
+    </application>
+</manifest>

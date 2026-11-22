@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-12",
+  "domain": "arenis.frontmakers.com",
+  "cname": "renan-alves.github.io.",
+  "https_enforced": true,
+  "certificate": {
+    "state": "approved",
+    "description": "The certificate has been approved.",
+    "domains": [
+      "arenis.frontmakers.com"
+    ],
+    "expires_at": "2027-02-10"
+  },
+  "checks": [
+    {
+      "bytes": 8973,
+      "status": 200,
+      "path": "/privacy/"
+    },
+    {
+      "bytes": 7837,
+      "status": 200,
+      "path": "/privacy/en/"
+    },
+    {
+      "bytes": 8763,
+      "status": 200,
+      "path": "/privacy/es-419/"
+    },
+    {
+      "bytes": 3489,
+      "status": 200,
+      "path": "/styles.css"
+    },
+    {
+      "bytes": 566,
+      "status": 200,
+      "path": "/mascot.svg"
+    },
+    {
+      "bytes": 164700,
+      "status": 200,
+      "path": "/fonts/Manrope.ttf"
+    }
+  ],
+  "http_redirect_to_https": true,
+  "url": "https://arenis.frontmakers.com/privacy/"
+}

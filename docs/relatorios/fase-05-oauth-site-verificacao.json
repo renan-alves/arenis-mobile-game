@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-18T02:12:08.799731+00:00",
+  "commit": "e2551c0e5bc69d2dbb97ce6fd49c0051b0666f95",
+  "workflow": "https://github.com/renan-alves/arenis-mobile-game/actions/runs/44221397783",
+  "checks": [
+    {
+      "url": "https://arenis.frontmakers.com/",
+      "status": 200,
+      "content_verified": true
+    },
+    {
+      "url": "https://arenis.frontmakers.com/terms/",
+      "status": 200,
+      "content_verified": true
+    },
+    {
+      "url": "https://arenis.frontmakers.com/privacy/",
+      "status": 200,
+      "content_verified": true
+    },
+    {
+      "url": "https://arenis.frontmakers.com/privacy/en/",
+      "status": 200,
+      "content_verified": true
+    },
+    {
+      "url": "https://arenis.frontmakers.com/privacy/es-419/",
+      "status": 200,
+      "content_verified": true
+    }
+  ]
+}

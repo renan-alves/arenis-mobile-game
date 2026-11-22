@@ -1,0 +1,215 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 10000,
+  "max_states": 100000,
+  "mode": "validate",
+  "pack_id": "prototype",
+  "pack_version": 1,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 5,
+      "elapsed_ms": 0,
+      "expanded": 5,
+      "fingerprint": "56f55b0fdcbf16088d529027795f73e6025b341c9bc0860cbc46ae8df364c551",
+      "id": "proto-easy-01",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 12,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "f2f763b6bd095ed41d8459cb3e145a88253e6cc7f6562aa9461878262ebccfcb",
+      "id": "proto-easy-02",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 8,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 2,
+      "elapsed_ms": 0,
+      "expanded": 2,
+      "fingerprint": "58daaaa8bf774ba1db55d872fb2b4b9a5e9c791a54aa2e8abaa812394dfa9bd8",
+      "id": "proto-easy-03",
+      "minimum_moves": 2,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 8,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 9,
+      "elapsed_ms": 3,
+      "expanded": 9,
+      "fingerprint": "c5ec1a79e756740fb4cdf3d616a0cb2d07b9e99c2fafe118acaa8d9af85a5c36",
+      "id": "proto-medium-01",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 39,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "03a1efcfb7915935d63130af58d8048ea9821a78f2632253398542372eeaad5a",
+      "id": "proto-medium-02",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 15,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "astar-runs-symmetry-v2",
+      "declared_minimum": 3,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "47f7e4aaa6734f74bd318f21b648bf5341646a4787e2ca547256094b05db08c1",
+      "id": "proto-hard-01",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 2,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 15,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 2,
+  "schema_version": 1
+}

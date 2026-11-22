@@ -1,0 +1,6343 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 10000,
+  "max_states": 100000,
+  "mode": "validate",
+  "pack_id": "campaign",
+  "pack_version": 1,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 2,
+      "expanded": 11,
+      "fingerprint": "16633e0aed4d7740d002b188a2ecb3c13d5f1ed0787329a393e54396fa42b111",
+      "id": "easy-001",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 23,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 0,
+      "expanded": 5,
+      "fingerprint": "6e962722845e974d663a366055d558c27b2161cc67c5d308a1abed39a79b1619",
+      "id": "easy-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 7,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 9,
+      "fingerprint": "3953429852a1640389c05f8fb5ec796a713181e158337fb15b9fb9fbc665d0ba",
+      "id": "easy-003",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 0,
+      "expanded": 7,
+      "fingerprint": "c7b9b7f50820aee3953cc842396da2b153d13151fbab15ec5659d2490d2485db",
+      "id": "easy-004",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 9,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 8,
+      "expanded": 45,
+      "fingerprint": "28752bb1d4d027125479f5bedf8a4f7bba239e9b06535425de5d368e72fb1493",
+      "id": "easy-005",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 104,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 0,
+      "expanded": 8,
+      "fingerprint": "9be0fef43cb5c5d3f264cb1c3e34e6c2eaf6e288f4c3811d1e89dc8cf2f34104",
+      "id": "easy-006",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 12,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 14,
+      "fingerprint": "f845f5d6b94241769df57e4db1fdc89db27699760ea13a4e5bbeaef59dc12302",
+      "id": "easy-007",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 17,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 12,
+      "expanded": 72,
+      "fingerprint": "4b188d051eaa9c8a2120b8539969f9b95d16a275afcced2acee31583f0ba6440",
+      "id": "easy-008",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 149,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 15,
+      "expanded": 95,
+      "fingerprint": "66e1571d6bf6f3599070840fe9ad11beca7f5a71759eb0399c634699864cec84",
+      "id": "easy-009",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 200,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 1,
+      "expanded": 16,
+      "fingerprint": "e400bb46f0462a00923a335ecf6acff2507c25f236d4d43d3e89be34ec7165be",
+      "id": "easy-010",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 17,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 10,
+      "fingerprint": "729601a149bdbdcfd298f8d0630f51638dd32f699dc4d9f672caa256343cf496",
+      "id": "easy-011",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 4,
+      "expanded": 27,
+      "fingerprint": "5ba493cfcf0a002162d326f9fca73187ccc2ad8bea3a94f1ad4ba1878ea714b7",
+      "id": "easy-012",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 68,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 16,
+      "expanded": 101,
+      "fingerprint": "175a42d5baa5458da8d01bcd3ab2f259b87da665f522f99e7b309a1265e34a8a",
+      "id": "easy-013",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 197,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 15,
+      "fingerprint": "362632dd39df081a3ebb612f50d99e911e9edf1658f497cbda00fd078f5670b8",
+      "id": "easy-014",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 17,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 11,
+      "fingerprint": "7bcdde78e73e623503cfc5a2bbd0214819672e14dc5d0a856dcc0a72aeac60cb",
+      "id": "easy-015",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 13,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 16,
+      "expanded": 102,
+      "fingerprint": "e45ff572719fded8bc24b2ce4b32bcc9b7858e90f3b54b8e07723136868085c1",
+      "id": "easy-016",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 185,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 9,
+      "expanded": 57,
+      "fingerprint": "b6424116d4242b188f58f8c84d174f2ee51a7091135e339565b24d4f9f2d40e0",
+      "id": "easy-017",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "states": 123,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 8,
+      "fingerprint": "2b413f923ae768d0ce146acae03ad610ceb6b38af29f5b9244aee3c3298d7731",
+      "id": "easy-018",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 10,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 1,
+      "expanded": 11,
+      "fingerprint": "1ae36786d2f679aa94a1b98b00cb358704185c5a4107e0dfb9630b53d606992f",
+      "id": "easy-019",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 13,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 1,
+      "expanded": 17,
+      "fingerprint": "56ba3ce95b2ad732cec8f58c95f364e2536f054495cf02f8c265e759c3870d3b",
+      "id": "easy-020",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 19,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 0,
+      "expanded": 7,
+      "fingerprint": "9722415fee137ca85a2190669230198a7408def62f33d0f240a8802b047593f3",
+      "id": "easy-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 9,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 5,
+      "expanded": 31,
+      "fingerprint": "cf1c0475cda8da2b5d32ade4dba969693a66612c9a73c0c173eabb1eeb997547",
+      "id": "easy-022",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 68,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 4,
+      "expanded": 27,
+      "fingerprint": "99873eb885303805709bfaa666fc4faba36813ede8c6623d85a107f9d8d2771e",
+      "id": "easy-023",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 58,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 11,
+      "fingerprint": "a830526c8dedddd4d57afd339ceb1076ebca121d1779c8dcdc31010c3b8371e2",
+      "id": "easy-024",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 21,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 16,
+      "expanded": 72,
+      "fingerprint": "4bf8706867480c5c2e7c4df94b9b8c05774c97b1d130985b24ec7794a8872885",
+      "id": "easy-025",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 173,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 11,
+      "fingerprint": "741ca29bfc6c51539acd79567f3470ec68c0d872ec288087e631c6e177d3894c",
+      "id": "easy-026",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 14,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 15,
+      "fingerprint": "43a2960e87f485a37275f30552ce2506171766534be086310061313d5e060c31",
+      "id": "easy-027",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 19,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 33,
+      "expanded": 157,
+      "fingerprint": "bc9cc36bc288f3d4745fb8341a3fbfcffd3d1c1936f5ecf816a25ccd10c8f317",
+      "id": "easy-028",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 332,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 2,
+      "expanded": 23,
+      "fingerprint": "857bb8e6ae6fedee13fcd51fe4fde95196c0fdebbd41a756501937bf7f1108d2",
+      "id": "easy-029",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 29,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 46,
+      "expanded": 218,
+      "fingerprint": "c2dabefcf289678d16761e94d88e5d7d019609c6aef2ba2862d48213f7319cbc",
+      "id": "easy-030",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 447,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 42,
+      "expanded": 198,
+      "fingerprint": "70371e319e2a824da46acd08de1f7d70b13f61fa6a710107e43bb5dc70842a34",
+      "id": "easy-031",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 402,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 64,
+      "expanded": 292,
+      "fingerprint": "67a2dc24f228fa18ce202ead70d77e47907e7fe0fee8be01446863fd05fdd3b9",
+      "id": "easy-032",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 604,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 37,
+      "expanded": 160,
+      "fingerprint": "ca1a4a784f45601bbee72185c9dcf66529d9daa1cf3f5e3b0205c3431340378d",
+      "id": "easy-033",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 308,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 39,
+      "expanded": 172,
+      "fingerprint": "d2dda87dc6fdde9d7ae58432e48a66d870f4bd1c2238728ce33c842867c10375",
+      "id": "easy-034",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 379,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 42,
+      "expanded": 194,
+      "fingerprint": "7cbe538a7d30b3d8279601740665b7cbe6b1b548fede4e781eb0eb96962a7c16",
+      "id": "easy-035",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 382,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 12,
+      "fingerprint": "f06308de97e20c1af9273808baf4ad8fe31422647059a0f191db519af6af7c83",
+      "id": "easy-036",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 22,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 22,
+      "expanded": 98,
+      "fingerprint": "80075185fdf70da4939958098117f834e0de005c4d49c29b6ba0899dadd002d4",
+      "id": "easy-037",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 216,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 14,
+      "expanded": 63,
+      "fingerprint": "8a6d00a5d24e9459600f1e152c01d40b0f8817b1f5795b43a1261fd7204e3cea",
+      "id": "easy-038",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 159,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 27,
+      "expanded": 117,
+      "fingerprint": "6e7f8146d6f1c64b5533ee190e6fbf89a1f875362be943fa84bd5718053069db",
+      "id": "easy-039",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 273,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 2,
+      "expanded": 20,
+      "fingerprint": "c4a2190bc6330e9ccf2f05a10286ef26db8ce4bd371ad8488ba8f52889f93a68",
+      "id": "easy-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 26,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 43,
+      "expanded": 191,
+      "fingerprint": "8b68430eedeba354b70f9d27501a66a19cb8ae80c28aba80b7d479efa3d8b924",
+      "id": "easy-041",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 386,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 44,
+      "expanded": 196,
+      "fingerprint": "27040abbff3b19ac369c0cecb0e967c4644478b66a4b9e4743f6d6e219ebe628",
+      "id": "easy-042",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 397,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 40,
+      "expanded": 157,
+      "fingerprint": "bcbb6658432b39ba28e967af82cf7f8980df1be4631b8df555d86d0e39a984ec",
+      "id": "easy-043",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 344,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 2,
+      "expanded": 21,
+      "fingerprint": "27b008d446d971ca881d0316f23c56612166fb986d32772e9de546eae01ee77d",
+      "id": "easy-044",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 30,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 38,
+      "expanded": 155,
+      "fingerprint": "b3f67ef7397bf89a7b3eba28311f7025ed0cfa1a1ab4bffe86e1db024d0c279a",
+      "id": "easy-045",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 355,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 2,
+      "expanded": 19,
+      "fingerprint": "061af066ab404147e78d75c68ed8f93f2427c8662331c57e688ffa6ffff839ea",
+      "id": "easy-046",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 21,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 38,
+      "expanded": 165,
+      "fingerprint": "bd11ce3e5ca7f11fdf31a53f518c38241795b4a32c459723d3c53b5c07804e35",
+      "id": "easy-047",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "states": 335,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 3,
+      "expanded": 24,
+      "fingerprint": "6e591602ef965ccd72eeb4c90ff9185100ebccb1427484284019a62b037593bd",
+      "id": "easy-048",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 29,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 91,
+      "expanded": 399,
+      "fingerprint": "b150d0b834a424cb28ede3329d630b7a9d0842efb1b03c022d50299b9ccc4126",
+      "id": "easy-049",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 894,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 59,
+      "expanded": 284,
+      "fingerprint": "2a2fb7a0ca6cbccb588684a9317a36d0eb5789d37a95cf302da2f1de6357bfc8",
+      "id": "easy-050",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 567,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 5,
+      "expanded": 39,
+      "fingerprint": "5aba22acb2047e07d43d4ecb9d2231d662af3494445d809a9db5f2a0484528bd",
+      "id": "medium-001",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 77,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 3,
+      "expanded": 29,
+      "fingerprint": "1d7249e5f7a01514475126da745ee8b069c926e46517f5c906c97b8310c98773",
+      "id": "medium-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 62,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 6,
+      "fingerprint": "a73f9cca20ab37fa6985a294ccd3820485af72247e73163e877ec24c03e658e2",
+      "id": "medium-003",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 7,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 20,
+      "expanded": 113,
+      "fingerprint": "e4b4d2f4aa0d2679cab5316ae573a4e04e01dbe24e8b226fe8d5d92a0552bc77",
+      "id": "medium-004",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 208,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 25,
+      "expanded": 127,
+      "fingerprint": "353be3b2ca9342dd246b9252a39dbe0afadc74c021dc6e22382c13fa0ee54286",
+      "id": "medium-005",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 235,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 37,
+      "expanded": 203,
+      "fingerprint": "3ddf7401a7a7a80f4703470cced8b132d4f9f6e93137359e6f86ed6fd7f93ea2",
+      "id": "medium-006",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 361,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 43,
+      "expanded": 226,
+      "fingerprint": "10b549d34893623fcf0ec7b498d1b613dcd0be1d2b30e7218dad2c315cfe3d72",
+      "id": "medium-007",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 384,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 25,
+      "fingerprint": "35466773ddd6618841ba5166ff8fdda76dff0f9afebb999022949ab6b7e05c94",
+      "id": "medium-008",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 28,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 86,
+      "expanded": 497,
+      "fingerprint": "11df07a978fd75dc0a5e92965151f7d1fd0549019311e89c1b5ab50041619451",
+      "id": "medium-009",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 757,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 36,
+      "fingerprint": "6a4d194685832eebb98ee191355cdba3d097bb2a805b259e53ab6ebe802391c9",
+      "id": "medium-010",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 38,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 2,
+      "expanded": 22,
+      "fingerprint": "4af0c554455d701d631a3de80a0d4a08936faee3401df13cccfd2490d75f8e9e",
+      "id": "medium-011",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 24,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 36,
+      "expanded": 174,
+      "fingerprint": "041c64445d6bb86978dfbbb6c8a4535b3dfa8be39749624d098e54bc15d2d930",
+      "id": "medium-012",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 297,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 23,
+      "expanded": 125,
+      "fingerprint": "2a91fcf1b85e40e3e1d47b4e3118d17a3deae33e7c0ed6984dedd11db73dac3b",
+      "id": "medium-013",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 241,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 19,
+      "expanded": 102,
+      "fingerprint": "2b63b461e8148a9bb130fbf9727ff40492235e5fcc1da082c784ab1307fd1b5b",
+      "id": "medium-014",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 195,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 33,
+      "expanded": 201,
+      "fingerprint": "d9df9202a2740c32a0d9b2fa7eba4d276b10e0cd2f9997bc7391f2cb5068d92e",
+      "id": "medium-015",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 372,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 51,
+      "expanded": 273,
+      "fingerprint": "ae543bc3ec61e7061c37ed008a53acee97b6d40d13d24b18f6f8af7aba26bb96",
+      "id": "medium-016",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 474,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 47,
+      "expanded": 264,
+      "fingerprint": "d8149e7dd889b246ae322b5588483539974c0afe665949757c8e2a02fc6c12ee",
+      "id": "medium-017",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 439,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 32,
+      "fingerprint": "d389fb16e8d80d7fb37b4d53f2a13c1348f380fb663df7fecdd3ee3a7773a20e",
+      "id": "medium-018",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 37,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 102,
+      "expanded": 621,
+      "fingerprint": "8df612c7a6381802489f1233a70682d963180401ba4c47cdda859b620602e73b",
+      "id": "medium-019",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 1050,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 1,
+      "expanded": 23,
+      "fingerprint": "6620eb2a33b0ab83820b63bbf28f0d90a428577af718d0320fada93d88fd7088",
+      "id": "medium-020",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 28,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 1,
+      "expanded": 12,
+      "fingerprint": "e8a843cd7e92c8b7dff403943dfd01155622808655b899d0fbb08af2a60414d0",
+      "id": "medium-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 14,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 14,
+      "expanded": 71,
+      "fingerprint": "3db36a16e56731b25d19f4381360e62343a4ec7ca4833b47f95a42acb6bdfc8a",
+      "id": "medium-022",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 149,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 26,
+      "expanded": 144,
+      "fingerprint": "08036a8625aa0a6750270b9915b7ca0f02ff5332cb371f0990342be72f48fea5",
+      "id": "medium-023",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 275,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 33,
+      "expanded": 131,
+      "fingerprint": "313e939133c4cfc3fe86d7fc6a2799ee1e1f6fffd807575f1c4d0306ea5ff670",
+      "id": "medium-024",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 298,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 11,
+      "fingerprint": "96e1fcbf89bf3b42e142f433ec03ff61b1f22fb19083a9b481a9b000859a2b93",
+      "id": "medium-025",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 21,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 108,
+      "expanded": 436,
+      "fingerprint": "9b733d9f44db2db472351b33eb613b197f85277613c52f9dc4a3a3feb44e622a",
+      "id": "medium-026",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 808,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 128,
+      "expanded": 509,
+      "fingerprint": "beca28a4796f3234ec0a1f0b8238a51749c38d0d0d1d4653257708d3a63a8254",
+      "id": "medium-027",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1027,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 30,
+      "fingerprint": "504306435109067ca6d9951e4eafadc0f2588c6b6a92d2033c982958d7e13c5d",
+      "id": "medium-028",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 33,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 168,
+      "expanded": 628,
+      "fingerprint": "208bcb2e622d7d948b22deea41119bfab801c8283e8b6c440741f28229963bed",
+      "id": "medium-029",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1197,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 360,
+      "expanded": 1369,
+      "fingerprint": "9ea61e32e7cdebb24fcc050cfa2ba369fe2c027699d158070e9c1c3b3e820c4c",
+      "id": "medium-030",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 2411,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 8,
+      "expanded": 62,
+      "fingerprint": "87ea13367e38db81a3b67b4056d154b979065054d8a8ad641830e228b86c2f43",
+      "id": "medium-031",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 75,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 318,
+      "expanded": 1190,
+      "fingerprint": "0b973042268fed1ff93fd65bd2cb9fef7683983c31320e60593ea0749085f335",
+      "id": "medium-032",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 2001,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 248,
+      "expanded": 972,
+      "fingerprint": "a1b16bf1eb871f48495630f981fad7c5414d1e6bd683ddb7b554d05670944f63",
+      "id": "medium-033",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 1608,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 505,
+      "expanded": 2034,
+      "fingerprint": "4303673fe43d2914bd735944acf08795b206a3462ca784709b048a6e83853ced",
+      "id": "medium-034",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 3421,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 11,
+      "elapsed_ms": 13,
+      "expanded": 104,
+      "fingerprint": "86d8bc12a79b5f036644b12d9a44d425fae121077fbd2f3ebab3d66d59050e36",
+      "id": "medium-035",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 109,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 33,
+      "expanded": 123,
+      "fingerprint": "d5757d8c77bd32670179ac49c2f1dd43524708cf30a8a3fe6a1c9399319a6311",
+      "id": "medium-036",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 284,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 106,
+      "expanded": 376,
+      "fingerprint": "9b6f7bff255eb568574325d6caa4a83c8649f1236a5f862afa9bd9ad0c2f3e62",
+      "id": "medium-037",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 716,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 53,
+      "expanded": 209,
+      "fingerprint": "09bed621a7514be8221fd5d352911387c13df07db0264d75fac0925c48dd2313",
+      "id": "medium-038",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 417,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 30,
+      "fingerprint": "8bdc80366c6c725efafd3a72058261c05e5939e4222471fe1f5ab51265b46964",
+      "id": "medium-039",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 35,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 53,
+      "expanded": 229,
+      "fingerprint": "29bd21e1dc309c15d1a686cfda01d4686745155b010b634db414794eafbd9521",
+      "id": "medium-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 493,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 135,
+      "expanded": 506,
+      "fingerprint": "aa7c190621668666a145eb24f3d6a85a7a116287dc75bcc569eb4f01a34aa6f1",
+      "id": "medium-041",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 998,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 36,
+      "fingerprint": "9d880e7aa7b7f71c8bd073d0519633668ff6a152d9f54ff9d8d1d5dc7b7d0f4a",
+      "id": "medium-042",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 44,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 3,
+      "expanded": 25,
+      "fingerprint": "2fae29db2602000ff0b5fb33c6fe43a2992c53d9985a0f50048838930747e1bb",
+      "id": "medium-043",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 26,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 154,
+      "expanded": 571,
+      "fingerprint": "cb42259250bceccb89fe2799474cef93d4bebdf54a2f68b5ebbc806675f4cfc8",
+      "id": "medium-044",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 1062,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 4,
+      "expanded": 32,
+      "fingerprint": "777d38a5114f98087b436a3c548020b0664346b9550ffa42c3db07b1625b3b67",
+      "id": "medium-045",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 42,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 4,
+      "expanded": 37,
+      "fingerprint": "5bfb5eb16f955c4cacd644f0fcf2cf18e4c1a61d8f7a33990932083baee3f059",
+      "id": "medium-046",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 174,
+      "expanded": 699,
+      "fingerprint": "d584d512dd2c456b23de5d7f09784a74046a9086204f63dc450f79a56da96a64",
+      "id": "medium-047",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 1223,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 172,
+      "expanded": 759,
+      "fingerprint": "053168241a86d840118a57f380f2096cec7344e4e61897b4068b65999ac6984b",
+      "id": "medium-048",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 1510,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 307,
+      "expanded": 1349,
+      "fingerprint": "419f6596bbcecaddabfd5dc8753e513e9656e94ec6b8e84cc637d816a1d42967",
+      "id": "medium-049",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 2305,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 11,
+      "elapsed_ms": 818,
+      "expanded": 3480,
+      "fingerprint": "77178406417c74c4d07425ac4e17efed23480a33464722d6eca0dacc6f43a786",
+      "id": "medium-050",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 5577,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 3,
+      "expanded": 14,
+      "fingerprint": "f70ea2a507b5c706662c1b642c3f5b4c6d997b0638a02f5d687c32e0021d55e1",
+      "id": "hard-001",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 44,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 6,
+      "expanded": 43,
+      "fingerprint": "1645efe4b6a2082ef0136c9a7e2403c0d791cac731dae6e54679f4e74100b977",
+      "id": "hard-002",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 83,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 9,
+      "fingerprint": "36b876d27a1d42d5dbcb8391856e3675f40549010b4032b65796c374f105e995",
+      "id": "hard-003",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 61,
+      "expanded": 311,
+      "fingerprint": "d7ecb7cf7711bbe304bfaa12c1fd85f7f66f317066d9afa10f53beef5c93d34a",
+      "id": "hard-004",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 553,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 51,
+      "fingerprint": "c452c880448cae0b87c82f09c699dcabdc9cbae85c1ab47f2a3566fd37e5deb1",
+      "id": "hard-005",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 55,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 102,
+      "expanded": 485,
+      "fingerprint": "8ee3f1d212c2645b58bd7c35dbf5546011ae39d005c58fbd29d6299707b3a4e3",
+      "id": "hard-006",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 762,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 341,
+      "expanded": 1647,
+      "fingerprint": "e7bf80394f5b4a958548e5be8aaeb6757cb133564d7a405a532dfe4e38ada1e7",
+      "id": "hard-007",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 2314,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 232,
+      "expanded": 1061,
+      "fingerprint": "1217b9a44dd65af25f61dd672f044092f40420354350a96d56f860d7d83297c5",
+      "id": "hard-008",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 1531,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 265,
+      "expanded": 1269,
+      "fingerprint": "c190520c89d2c9d9b73588f06506c4b89a4a1d430bd26b4f7f6dfb639fd096ad",
+      "id": "hard-009",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1791,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 7,
+      "expanded": 68,
+      "fingerprint": "fbe715c347854ca2623e1dfe1b0dba7d93a9a1fbd45ed0ac49d708c3351b7cfc",
+      "id": "hard-010",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 75,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 56,
+      "expanded": 234,
+      "fingerprint": "1bb27b1a1c95b692ded7ee60b82727848a9a5d644441186d8aea5d19248d3f62",
+      "id": "hard-011",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 408,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 52,
+      "expanded": 226,
+      "fingerprint": "9d05646bc6c8619b9caebbc1afe046bb1bee7c8c77ae8c7c7188d12380b7532b",
+      "id": "hard-012",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 396,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 80,
+      "expanded": 307,
+      "fingerprint": "3c893ab9abdade7e7a913d25689239816ba9bd18839360cfd37feee135087609",
+      "id": "hard-013",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 547,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 41,
+      "expanded": 226,
+      "fingerprint": "5cd848fbf2fa9f534bf332320b96b10939e4eaa8249bc1b921710a36d756fd40",
+      "id": "hard-014",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 409,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 5,
+      "expanded": 48,
+      "fingerprint": "ccd3e2cc0f072458ca45f715966c4e94bf6f13289f3cdc44f33879e095bd8283",
+      "id": "hard-015",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 49,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 4,
+      "expanded": 31,
+      "fingerprint": "ca724fa4b61bbeed2ec39b4ba15d95e4efb263116c138501c5cea444cf38f8d2",
+      "id": "hard-016",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 35,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 118,
+      "expanded": 559,
+      "fingerprint": "d3154c38994ea226575c022a04b7280ff43f7e7bcc60d0482896a1d291044fd3",
+      "id": "hard-017",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 889,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 4,
+      "expanded": 39,
+      "fingerprint": "7a68b47cd3b70514136ea5e405553575cb3c4285a36efb00d5f960a8de2a5e2b",
+      "id": "hard-018",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 41,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 334,
+      "expanded": 1504,
+      "fingerprint": "f77b08814bb45c9aea816cb91591766f4f68bebc30f76ff5fc7aa218b46a9769",
+      "id": "hard-019",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1994,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 376,
+      "expanded": 1692,
+      "fingerprint": "b88f0cbf88b83d6f494404590c4d293f1f7b6ea8e2e4be99691d88a3be38cdde",
+      "id": "hard-020",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 2346,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 4,
+      "elapsed_ms": 12,
+      "expanded": 51,
+      "fingerprint": "81d683915d9d4e8917a80952fc4cc1f8d5f97b9476bf35886db773c8aa74f3bb",
+      "id": "hard-021",
+      "minimum_moves": 4,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 123,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 12,
+      "fingerprint": "5fc9ac698fb6a678ab01ec89560b015372df81f0a210cf416a93d35fd244b3df",
+      "id": "hard-022",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 15,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 13,
+      "expanded": 62,
+      "fingerprint": "0c13ea89bec63fe2d5e00a94c8c7ff6a6d9d578cf3d46e6fdc19d96dd8657abe",
+      "id": "hard-023",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 132,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 4,
+      "expanded": 25,
+      "fingerprint": "11e670aafd92124d4fb59df392c4f85de3a96f190feae47b653f065b7a5d5648",
+      "id": "hard-024",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 28,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 102,
+      "expanded": 348,
+      "fingerprint": "4e00a39960ed35ec10096647c646b1a63acf99392110108e6eb263afb97c5d43",
+      "id": "hard-025",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 718,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 231,
+      "expanded": 739,
+      "fingerprint": "265a61d67efe89a9c95c257d9d48a47237fd88501a6534b2bf39a84e9d6df727",
+      "id": "hard-026",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 1348,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 303,
+      "expanded": 949,
+      "fingerprint": "c532deb249375a8565523defc39311c0d68a48071381dc3cc278ebe7ad41c0dc",
+      "id": "hard-027",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 1806,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 10,
+      "expanded": 61,
+      "fingerprint": "a5ef54b6fda78db50ebfcd4e303a04cdf8641a58d0b93c052c2c04959ae2b286",
+      "id": "hard-028",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 68,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 290,
+      "expanded": 885,
+      "fingerprint": "6bf6acfb04b4307d69f1be3208875140aea9528c4ad4b4a38c8a8ae3b2e8f089",
+      "id": "hard-029",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1740,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 231,
+      "expanded": 753,
+      "fingerprint": "7237adce4f6f304e6265e7cd4a0361267436378d500fded51d501439e5470ef0",
+      "id": "hard-030",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1406,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 6,
+      "expanded": 43,
+      "fingerprint": "f68c67bd3fd3fb330224db7fe68d70260cbce8ae6ce768513deea6c1c8b320ec",
+      "id": "hard-031",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 46,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 416,
+      "expanded": 1490,
+      "fingerprint": "e1797fe08b441fc9714f565f22c393e1eecb1f818922703adf3492cd10f6a254",
+      "id": "hard-032",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 2524,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 814,
+      "expanded": 2663,
+      "fingerprint": "b5a95bfec9c5e523daff3109ee8e1b7c3d092d4a6feb1853b453e54c57efb425",
+      "id": "hard-033",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 4583,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 29,
+      "expanded": 180,
+      "fingerprint": "f7f2d2b8cffa657120c13c504bafd303eb69ced2e1e46395dc127bfd259aa82e",
+      "id": "hard-034",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 203,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 424,
+      "expanded": 1526,
+      "fingerprint": "73ee0b532fb2cbc44715b56b1806180a466ff1c90fff37be1fc691d2c65c8b0a",
+      "id": "hard-035",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 2810,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 138,
+      "expanded": 414,
+      "fingerprint": "51126be8df97f50c35ba242e4f19ce7f1735b742f8dd3731676da75263521aa6",
+      "id": "hard-036",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 839,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 6,
+      "expanded": 37,
+      "fingerprint": "4e56210775fe1002c352b17d596c52d52dd583c62423fb7f36087061a42ee2dc",
+      "id": "hard-037",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 45,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 96,
+      "expanded": 308,
+      "fingerprint": "d5b2d66e4abb070ab0822a420713a279e69b23e7c3d7e3f841877526084ab538",
+      "id": "hard-038",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 651,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 5,
+      "expanded": 34,
+      "fingerprint": "43b9fab13e340f2ff17ae5bc7c00b7ae6aa3b643d9c2f44774157ce6ab0c4f98",
+      "id": "hard-039",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 38,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 6,
+      "elapsed_ms": 129,
+      "expanded": 402,
+      "fingerprint": "b4bf463372e9b06eb5178792d05e912a71eb5cce6535a04bed7b2b11dca71901",
+      "id": "hard-040",
+      "minimum_moves": 6,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 815,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 198,
+      "expanded": 618,
+      "fingerprint": "c1eb3b6528d3e3dc660a60c28a141fbd8bacc38252588389ec14d2f48a8db59f",
+      "id": "hard-041",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 1177,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 112,
+      "expanded": 419,
+      "fingerprint": "af1fc5927ddd1b70f1c1cf2d363233a8e468589ab6c74a829d85355c4e776297",
+      "id": "hard-042",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 763,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 7,
+      "elapsed_ms": 274,
+      "expanded": 915,
+      "fingerprint": "c4f55ecafcc909234bae4cb4ab44505616138229e18c68088079e9a638cecfd1",
+      "id": "hard-043",
+      "minimum_moves": 7,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 1685,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 11,
+      "expanded": 76,
+      "fingerprint": "1e89140c476071d6e83caf85e4e17080a038134ccdd58deb293a397205f7fb3b",
+      "id": "hard-044",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 92,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 8,
+      "elapsed_ms": 437,
+      "expanded": 1480,
+      "fingerprint": "0de40a949d41e80f2bf41c52e4c80d285b4f77f9dae51b885a805329d7d420ea",
+      "id": "hard-045",
+      "minimum_moves": 8,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "states": 2479,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 10,
+      "expanded": 67,
+      "fingerprint": "ba6ef682591546ff3e7e048ae102997f0524c377935ca5543a15efd788fe6095",
+      "id": "hard-046",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 76,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 407,
+      "expanded": 1452,
+      "fingerprint": "4b4366658ba06c7f826d44c5783278ffd6b7f74027da81fef51e3d07d5f7f308",
+      "id": "hard-047",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 2515,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 395,
+      "expanded": 1414,
+      "fingerprint": "57a55ef47d4643a8c0b6ae32598e87bb77b8cb220cef8029127dd08f28e0801a",
+      "id": "hard-048",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 2567,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 10,
+      "elapsed_ms": 583,
+      "expanded": 2206,
+      "fingerprint": "11567eceb18d9d43bd9ae4f92e48fbd94ea1b581783f9fca8915bbd1d68b3ede",
+      "id": "hard-049",
+      "minimum_moves": 10,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 3953,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 11,
+      "elapsed_ms": 9,
+      "expanded": 76,
+      "fingerprint": "4777d071c40bd8fd135f8be8a9b8934a63f6ab285e8e20b2571130e5e46e445a",
+      "id": "hard-050",
+      "minimum_moves": 11,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "states": 82,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 1,
+  "schema_version": 1
+}

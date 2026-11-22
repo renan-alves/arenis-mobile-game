@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-18",
+  "checks": 4130,
+  "suites": 17,
+  "failures": 0,
+  "cli_scenarios": 6,
+  "apk": "build/android/arenis-play-games-diagnostics-debug.apk",
+  "sha256": "6d1814c4b249b105f144cba8f46ef7fcac7301470a29b61e5897ba9ea760c5ee",
+  "bytes": 251440466,
+  "previous_apk_sync": "confirmed_by_user_before_fix_delivery",
+  "root_cause_of_initial_failure": "unknown",
+  "new_apk_runtime": "not_validated",
+  "package": "com.frontmakers.arenis",
+  "gameplay_or_progress_schema_changed": false,
+  "diagnostic_contains_account_data": false
+}

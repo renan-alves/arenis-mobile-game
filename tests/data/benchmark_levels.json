@@ -1,0 +1,99 @@
+{
+  "schema_version": 3,
+  "levels": [
+    {
+      "id": "bench-hard-2-colors",
+      "version": 1,
+      "title": "Benchmark 2 cores",
+      "difficulty": "Difícil",
+      "difficulty_id": "hard",
+      "capacity": 7,
+      "minimum_moves": 0,
+      "lesson": "Medição de busca, não é fase da campanha.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "coral",
+            "aqua",
+            "coral",
+            "aqua",
+            "coral"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "coral",
+            "aqua",
+            "coral",
+            "aqua",
+            "coral",
+            "aqua"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": []
+        }
+      ]
+    },
+    {
+      "id": "bench-hard-3-colors",
+      "version": 1,
+      "title": "Benchmark 3 cores",
+      "difficulty": "Difícil",
+      "difficulty_id": "hard",
+      "capacity": 7,
+      "minimum_moves": 0,
+      "lesson": "Medição de busca, não é fase da campanha.",
+      "bottles": [
+        {
+          "colors": [
+            "coral",
+            "aqua",
+            "gold",
+            "coral",
+            "aqua",
+            "gold",
+            "coral"
+          ]
+        },
+        {
+          "colors": [
+            "aqua",
+            "gold",
+            "coral",
+            "aqua",
+            "gold",
+            "coral",
+            "aqua"
+          ]
+        },
+        {
+          "colors": [
+            "gold",
+            "coral",
+            "aqua",
+            "gold",
+            "coral",
+            "aqua",
+            "gold"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": []
+        }
+      ]
+    }
+  ],
+  "rules_version": 3,
+  "pack_id": "benchmarks",
+  "pack_version": 1
+}

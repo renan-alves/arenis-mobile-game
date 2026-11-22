@@ -1,0 +1,215 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 10000,
+  "max_states": 100000,
+  "mode": "validate",
+  "pack_id": "prototype",
+  "pack_version": 1,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 5,
+      "elapsed_ms": 1,
+      "expanded": 9,
+      "fingerprint": "736b90345295216db6c29af384966602f96aa4b6674e9746e08eace5b971eaf8",
+      "id": "proto-easy-01",
+      "minimum_moves": 5,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 11,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 0,
+      "expanded": 4,
+      "fingerprint": "fdd39fa816c3f1f846ed58c843f084f76ae5019777d505fa6be58f28d1290cdf",
+      "id": "proto-easy-02",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 6,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 2,
+      "elapsed_ms": 1,
+      "expanded": 3,
+      "fingerprint": "c5de9138751846896837f3ed395bad1f996f9a85eec82c77f72e04ea4b12b244",
+      "id": "proto-easy-03",
+      "minimum_moves": 2,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "states": 4,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 9,
+      "elapsed_ms": 41,
+      "expanded": 346,
+      "fingerprint": "b9c64b3a74280293033691ad94e984b6baec310443408f67e0b074e432d9198d",
+      "id": "proto-medium-01",
+      "minimum_moves": 9,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 437,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 0,
+      "expanded": 3,
+      "fingerprint": "7b90d6e23b471b9b2441322697ddbf502dc708027752166088466dfbd329acb5",
+      "id": "proto-medium-02",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 4,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 3,
+      "elapsed_ms": 0,
+      "expanded": 3,
+      "fingerprint": "4d6435173b063ae7fa24ccbc05a894ac9a5a9e2831c9eb3039beb2601096153b",
+      "id": "proto-hard-01",
+      "minimum_moves": 3,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "states": 4,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 1,
+  "schema_version": 1
+}

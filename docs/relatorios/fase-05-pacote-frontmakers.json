@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "package": "com.frontmakers.arenis",
+  "version_name": "0.5.0",
+  "version_code": 5,
+  "apk": "build/android/arenis-debug.apk",
+  "bytes": 251439738,
+  "sha256": "055818e09402b9608f8e612cecf34a168c38bfc9bbc0a0a909caa319e0435198",
+  "debug_certificate_sha1": "262bbe944c1151fe6bb8b25a680b3ff60ed888a1",
+  "apk_signature": "verified",
+  "levels": 150,
+  "locales": [
+    "pt_BR",
+    "en",
+    "es_419"
+  ],
+  "sample_admob_app_id": "verified",
+  "old_package_in_manifest": false,
+  "android_device_runtime": "not_validated"
+}

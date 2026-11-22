@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-12",
+  "phase": 5,
+  "status": "implementation_for_testing_native_acceptance_pending",
+  "repository": "C:\\git-workspace\\arenis-mobile-game",
+  "engine": "4.7.2.stable",
+  "checks": 4121,
+  "cli_scenarios": 6,
+  "failures": 0,
+  "suites": [
+    {
+      "suite": "RULES",
+      "checks": 88,
+      "failures": 0
+    },
+    {
+      "suite": "UI",
+      "checks": 13,
+      "failures": 0
+    },
+    {
+      "suite": "SOLVER/CATALOG",
+      "checks": 232,
+      "failures": 0
+    },
+    {
+      "suite": "IDENTITY",
+      "checks": 18,
+      "failures": 0
+    },
+    {
+      "suite": "LAYOUT/SETTINGS",
+      "checks": 24,
+      "failures": 0
+    },
+    {
+      "suite": "CAMPAIGN",
+      "checks": 2731,
+      "failures": 0
+    },
+    {
+      "suite": "POLISH",
+      "checks": 37,
+      "failures": 0
+    },
+    {
+      "suite": "REFINEMENT",
+      "checks": 46,
+      "failures": 0
+    },
+    {
+      "suite": "PROGRESS/THEME",
+      "checks": 29,
+      "failures": 0
+    },
+    {
+      "suite": "SAND ENDING",
+      "checks": 13,
+      "failures": 0
+    },
+    {
+      "suite": "PALETTE",
+      "checks": 37,
+      "failures": 0
+    },
+    {
+      "suite": "MECHANIC INTRO",
+      "checks": 42,
+      "failures": 0
+    },
+    {
+      "suite": "SESSIONS",
+      "checks": 20,
+      "failures": 0
+    },
+    {
+      "suite": "LOCALIZATION",
+      "checks": 721,
+      "failures": 0
+    },
+    {
+      "suite": "BASIC TUTORIAL",
+      "checks": 12,
+      "failures": 0
+    },
+    {
+      "suite": "ANDROID SERVICES",
+      "checks": 47,
+      "failures": 0
+    },
+    {
+      "suite": "ANDROID FLOW",
+      "checks": 11,
+      "failures": 0
+    }
+  ],
+  "native_plugin_compile": "passed",
+  "official_apk_export": "passed",
+  "apk_signature_v2": "verified",
+  "native_manifest_checks": {
+    "arenis_plugin": true,
+    "google_test_app_id": true,
+    "automatic_play_games_provider_removed": true
+  },
+  "apk": {
+    "path": "build/android/arenis-debug.apk",
+    "bytes": 251439730,
+    "sha256": "0be44a513603ec1347e0eef9d7030d856af49e9d5298212361e6d236fd77a457",
+    "package": "com.renanalves.arenis",
+    "version_name": "0.5.0",
+    "version_code": 5,
+    "min_sdk": 24,
+    "target_sdk": 36,
+    "architectures": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86_64"
+    ],
+    "levels": 150,
+    "locale_messages": {
+      "pt_BR": 117,
+      "en": 117,
+      "es_419": 117
+    }
+  },
+  "source_files_copied_and_verified": 39,
+  "runtime_android": "not_validated",
+  "native_ad_display": "not_validated",
+  "real_play_games_sync": "not_configured_not_validated",
+  "emulator_attempt": "software_emulation_exited_0xC0000005_without_boot",
+  "publication": false,
+  "commit_or_push": false
+}

@@ -1,0 +1,349 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Arenis level pack v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "rules_version",
+    "pack_id",
+    "pack_version",
+    "levels"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "rules_version": {
+      "const": 3
+    },
+    "pack_id": {
+      "$ref": "#/$defs/id"
+    },
+    "pack_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "levels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/level"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "bottle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "colors"
+      ],
+      "properties": {
+        "colors": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "string",
+            "enum": [
+              "coral",
+              "aqua",
+              "gold",
+              "lilac",
+              "sky",
+              "sage",
+              "rose",
+              "peach",
+              "indigo",
+              "mint"
+            ]
+          }
+        },
+        "hidden": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 6
+          }
+        },
+        "unlock_color": {
+          "type": "string",
+          "enum": [
+            "coral",
+            "aqua",
+            "gold",
+            "lilac",
+            "sky",
+            "sage",
+            "rose",
+            "peach",
+            "indigo",
+            "mint"
+          ]
+        }
+      }
+    },
+    "level": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "version",
+        "title",
+        "difficulty",
+        "difficulty_id",
+        "capacity",
+        "minimum_moves",
+        "lesson",
+        "bottles"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "difficulty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "difficulty_id": {
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            "journey"
+          ]
+        },
+        "capacity": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 7
+        },
+        "minimum_moves": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "lesson": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bottles": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/bottle"
+          }
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mode": {
+          "enum": [
+            "free",
+            "moves",
+            "timed"
+          ]
+        },
+        "move_limit": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "time_limit": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3600
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "difficulty_id": {
+                "const": "easy"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "capacity": {
+                "const": 3
+              },
+              "bottles": {
+                "items": {
+                  "properties": {
+                    "colors": {
+                      "maxItems": 3
+                    },
+                    "hidden": {
+                      "items": {
+                        "maximum": 2
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "difficulty_id": {
+                "const": "medium"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "capacity": {
+                "const": 5
+              },
+              "bottles": {
+                "items": {
+                  "properties": {
+                    "colors": {
+                      "maxItems": 5
+                    },
+                    "hidden": {
+                      "items": {
+                        "maximum": 4
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "difficulty_id": {
+                "const": "hard"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "capacity": {
+                "const": 7
+              },
+              "bottles": {
+                "items": {
+                  "properties": {
+                    "colors": {
+                      "maxItems": 7
+                    },
+                    "hidden": {
+                      "items": {
+                        "maximum": 6
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "difficulty_id": {
+                "const": "journey"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "number",
+              "mode",
+              "move_limit",
+              "time_limit"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "free"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "properties": {
+              "move_limit": {
+                "const": 0
+              },
+              "time_limit": {
+                "const": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "moves"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "properties": {
+              "move_limit": {
+                "minimum": 1
+              },
+              "time_limit": {
+                "const": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "timed"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "properties": {
+              "move_limit": {
+                "const": 0
+              },
+              "time_limit": {
+                "minimum": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

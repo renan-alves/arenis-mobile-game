@@ -1,0 +1,175 @@
+{
+  "accepted": true,
+  "godot_version": "4.7.2-stable (official)",
+  "max_ms": 3000,
+  "max_states": 100000,
+  "mode": "solve",
+  "pack_id": "benchmarks",
+  "pack_version": 1,
+  "results": [
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 0,
+      "elapsed_ms": 148,
+      "expanded": 1107,
+      "fingerprint": "0f4796a1ce7d38e1781b46a9b73ca0580c9e49529989508651758a1b5ea18ad0",
+      "id": "bench-hard-2-colors",
+      "minimum_moves": 13,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 1251,
+      "status": "optimal",
+      "version": 1
+    },
+    {
+      "accepted": true,
+      "algorithm": "bfs-v1",
+      "declared_minimum": 0,
+      "elapsed_ms": 2211,
+      "expanded": 12095,
+      "fingerprint": "8e9c737a32afee5c8c640928f8a81d55fff92ff0d86006755dabf9931040fc5b",
+      "id": "bench-hard-3-colors",
+      "minimum_moves": 19,
+      "reason": "",
+      "rules_version": 1,
+      "solution": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 13576,
+      "status": "optimal",
+      "version": 1
+    }
+  ],
+  "rules_version": 1,
+  "schema_version": 1
+}
