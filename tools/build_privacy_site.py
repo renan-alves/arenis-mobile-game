@@ -9,7 +9,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = 'Arenis: Sand Sort Challenge'
-DATE = '2026-11-19'
+DATE = '2026-11-22'
 LINKS = {
     'ads': 'https://developers.google.com/admob/android/privacy/play-data-disclosure',
     'google': 'https://policies.google.com/privacy',
@@ -20,7 +20,7 @@ LINKS = {
 
 CONTENT = {
  'pt-BR': {
-  'title': 'Política de Privacidade', 'date': 'Atualizada em 19 de novembro de 2026',
+  'title': 'Política de Privacidade', 'date': 'Atualizada em 22 de novembro de 2026',
   'lead': 'Entenda como seus dados são tratados enquanto você joga, vê anúncios ou escolhe sincronizar seu progresso.',
   'contact': 'Contato de privacidade e suporte', 'languages': 'Idioma da página',
   'draft': 'Rascunho local: o contato público ainda precisa ser definido.',
@@ -31,7 +31,7 @@ CONTENT = {
     'Você pode jogar sem criar um cadastro próprio do Arenis. Anúncios e sincronização dependem da disponibilidade dos serviços Google; a sincronização é uma escolha opcional e pode não estar disponível em versões de desenvolvimento.'
    ]),
    ('local', '2. Dados salvos no aparelho', [
-    'O app guarda progresso, estrelas, melhores jogadas, a partida em andamento de cada dificuldade, histórico de desfazer, cores reveladas e trancas. Também salva idioma, tema, acessibilidade, áudio, tutoriais vistos, opção de sincronização e contador local de anúncios.',
+    'O app guarda progresso, estrelas, melhores jogadas, uma partida em andamento da campanha, tempo decorrido nas fases com cronômetro, histórico de desfazer, cores reveladas e trancas. Também salva idioma, tema, acessibilidade, áudio, tutoriais vistos, opção de sincronização e contador local de anúncios.',
     'Esses dados permitem retomar partidas, preservar suas escolhas e controlar a frequência dos anúncios. Não temos um servidor próprio para receber suas partidas em andamento ou preferências.'
    ]),
    ('anuncios', '3. Anúncios e dados do Google', [
@@ -74,7 +74,7 @@ CONTENT = {
   ],
  },
  'en': {
-  'title': 'Privacy Policy', 'date': 'Updated November 19, 2026',
+  'title': 'Privacy Policy', 'date': 'Updated November 22, 2026',
   'lead': 'How your data is handled while you play, see ads or choose to sync your progress.',
   'contact': 'Privacy and support contact', 'languages': 'Page language',
   'draft': 'Local draft: a public contact email still needs to be provided.',
@@ -85,7 +85,7 @@ CONTENT = {
     'You can play without creating an Arenis account. Ads and sync depend on Google service availability. Sync is optional and may be unavailable in development versions.'
    ]),
    ('local', '2. Data stored on your device', [
-    'The app stores progress, stars, best move counts, one ongoing game per difficulty, undo history, revealed colors and locks. It also stores language, theme, accessibility, audio, completed tutorials, sync preference and a local ad counter.',
+    'The app stores progress, stars, best move counts, one ongoing campaign game, elapsed time in timed levels, undo history, revealed colors and locks. It also stores language, theme, accessibility, audio, completed tutorials, sync preference and a local ad counter.',
     'These records let you resume games, keep your preferences and control ad frequency. We do not operate our own server to receive ongoing games or preferences.'
    ]),
    ('ads', '3. Advertising and Google data', [
@@ -128,7 +128,7 @@ CONTENT = {
   ],
  },
  'es-419': {
-  'title': 'Política de Privacidad', 'date': 'Actualizada el 19 de noviembre de 2026',
+  'title': 'Política de Privacidad', 'date': 'Actualizada el 22 de noviembre de 2026',
   'lead': 'Cómo se tratan tus datos mientras juegas, ves anuncios o eliges sincronizar tu progreso.',
   'contact': 'Contacto de privacidad y soporte', 'languages': 'Idioma de la página',
   'draft': 'Borrador local: falta definir el correo de contacto público.',
@@ -139,7 +139,7 @@ CONTENT = {
     'Puedes jugar sin crear una cuenta propia de Arenis. Los anuncios y la sincronización dependen de los servicios de Google. La sincronización es opcional y puede no estar disponible en versiones de desarrollo.'
    ]),
    ('local', '2. Datos guardados en el dispositivo', [
-    'La app guarda progreso, estrellas, mejores cantidades de movimientos, una partida en curso por dificultad, historial de deshacer, colores revelados y bloqueos. También guarda idioma, tema, accesibilidad, audio, tutoriales vistos, preferencia de sincronización y un contador local de anuncios.',
+    'La app guarda progreso, estrellas, mejores cantidades de movimientos, una partida en curso de la campaña, tiempo transcurrido en niveles con cronómetro, historial de deshacer, colores revelados y bloqueos. También guarda idioma, tema, accesibilidad, audio, tutoriales vistos, preferencia de sincronización y un contador local de anuncios.',
     'Estos datos permiten retomar partidas, conservar preferencias y controlar la frecuencia de anuncios. No tenemos un servidor propio que reciba partidas en curso o preferencias.'
    ]),
    ('anuncios', '3. Anuncios y datos de Google', [
