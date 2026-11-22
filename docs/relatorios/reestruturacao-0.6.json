@@ -56,8 +56,43 @@
     "test_ads": true
   },
   "phone": {
-    "tested_this_version": false,
-    "reason": "USB device detected but ADB authorization unavailable; no installation performed."
+    "tested_this_version": true,
+    "installed": true,
+    "model": "Samsung Galaxy A8 (SM-A530F)",
+    "android_version": "9",
+    "api_level": 28,
+    "screen_pixels": [
+      1080,
+      2220
+    ],
+    "apk_sha256_verified_on_device": true,
+    "transfer_method": "8 MiB chunks, concatenated on device, SHA-256 matched before package installation",
+    "checks": [
+      "Launcher, native banner and safe layout",
+      "Light and dark themes",
+      "Guided practice completed without changing campaign results",
+      "Different-color pour rejected without spending moves",
+      "First level completed in its proven 3 moves, with 3 stars",
+      "Successor unlocked and stars retained",
+      "Undo animated and journal recorded both pour and undo",
+      "Help and restart confirmation",
+      "Settings in Portuguese, English and Latin American Spanish",
+      "Native Play Games reports synchronized",
+      "New snapshot restores level 1 after both local progress files are moved aside"
+    ],
+    "cloud_roundtrip": {
+      "verified": true,
+      "snapshot": "arenis_journey_v1",
+      "level": "level-001",
+      "stars": 3,
+      "best_moves": 3,
+      "method": "Same-device fresh-local-state simulation; journey_progress.cfg and journey_progress.cfg.bak moved aside with off-device safety copies, then completion restored from Play Games."
+    },
+    "scoped_godot_runtime_cloud_errors": 0,
+    "original_system_theme_and_language_restored": true,
+    "final_state": "Level 1 completed with 3 stars / 3 moves; level 2 unlocked with a clean zero-move attempt.",
+    "temporary_device_transfer_files_removed": true,
+    "screenshots": "docs/relatorios/imagens/jornada-0.6/android"
   },
   "website": {
     "commit": "d6edb478ae9c797ed912e8b8917175414b6135b7",
@@ -74,7 +109,9 @@
   },
   "screenshots": "docs/relatorios/imagens/jornada-0.6/",
   "limits": [
-    "Real-device testing of 0.6.0 and new Saved Games namespace is still pending.",
+    "Two-device synchronization and simultaneous snapshot conflicts still need real-device validation.",
+    "Later timed/move-limited levels, obstacles and dense boards passed desktop/automated checks; this phone session exercised the first two levels and core menus.",
+    "Native interstitial and release/production advertising were not exercised in this session.",
     "Difficulty curve and budgets need player feedback; optimality does not certify perceived challenge.",
     "Store release signing, final policy declarations and publication remain separate work."
   ],

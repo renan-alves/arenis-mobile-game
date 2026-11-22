@@ -29,7 +29,7 @@ A renderização gráfica foi capturada pelo próprio Godot/OpenGL em uma janela
 
 O novo arquivo `journey_progress.cfg`, regras 3, documento de nuvem schema 2 e snapshot `arenis_journey_v1` impedem importar resultados da campanha beta anterior. Os arquivos/snapshots antigos não são apagados nem mesclados à jornada. Preferências e escolha de sincronização permanecem; o treino das novas regras volta a aparecer.
 
-Testes de lógica verificam merge, preservação da tentativa, ausência de regressão em estrelas/recordes e sincronização automática de conclusões. A nova versão ainda precisa ser conferida em aparelho e entre dispositivos com a mesma conta.
+Testes de lógica verificam merge, preservação da tentativa, ausência de regressão em estrelas/recordes e sincronização automática de conclusões. A nova versão foi conferida em um aparelho, inclusive com restauração real da nuvem após separar os arquivos locais. A validação entre dois dispositivos com a mesma conta permanece pendente.
 
 ## APK
 
@@ -45,8 +45,24 @@ Página inicial e política em três idiomas atualizadas para a campanha e persi
 
 O código do jogo estava apenas no checkout local; a entrega inclui o fonte e as evidências no repositório oficial. Foram conferidos 409 arquivos, sem achados nos padrões de segredos; builds, configurações privadas e material de assinatura foram excluídos e sua regra de ignore foi verificada.
 
+## Validação no celular — concluída nesta sessão
+
+APK instalado no **Samsung Galaxy A8 (SM-A530F), Android 9/API 28, tela 1080 × 2220**. A conexão USB inicialmente perdeu autorização e a transferência direta do APK falhou. O envio em blocos de 8 MiB funcionou; o arquivo foi reunido no aparelho e seu SHA-256 conferido antes da instalação. A versão instalada é 0.6.0, código 7. A abertura foi feita pela Activity pública GodotAppLauncher. Não houve mudança no APK para esse procedimento.
+
+Conferidos no aparelho: mapa, temas claro/escuro, banner adaptativo de teste, configurações, conta, treino inicial completo, ajuda, menu, confirmação de reinício e resultado. As configurações foram abertas em português, inglês e es-419. O espaço do banner e as barras do Android ficaram separados da interface útil.
+
+O despejo em cor diferente foi rejeitado sem registrar jogada; o Nível 1 terminou em três jogadas e recebeu três estrelas. O Nível 2 foi liberado. Nele, um despejo seguido de desfazer registrou ambas as ações e exibiu duas jogadas. O reinício confirmado zerou a tentativa.
+
+**A restauração nativa da nuvem foi confirmada.** Após sincronizar a conclusão, o app foi encerrado e ambos os arquivos locais da jornada foram separados, com cópias de segurança. Na nova abertura, o Play Games restaurou o Nível 1 com três estrelas e recorde de três jogadas no snapshot arenis_journey_v1. Isso valida envio e recuperação reais em um aparelho; não substitui o teste de dois aparelhos ou de conflito simultâneo.
+
+As consultas de logs foram limitadas ao processo do Arenis e aos erros Godot/AndroidRuntime e avisos ArenisCloud, sem erros encontrados nessas categorias nas verificações finais. Não foi feita avaliação auditiva dos efeitos nem medição formal de desempenho.
+
+Estado final no celular: **Nível 1 concluído com três estrelas; Nível 2 liberado, tentativa com zero jogadas**. Tema e idioma voltaram a seguir o sistema. Configurações locais de conta foram preservadas. Arquivos temporários do envio e cópias auxiliares no aparelho foram removidos após confirmar a recuperação; cópias de segurança locais ficam em tmp, fora do Git.
+
+Evidências do aparelho: [mapa final](imagens/jornada-0.6/android/final-home.png), [resultado](imagens/jornada-0.6/android/first-win.png), [sincronização](imagens/jornada-0.6/android/after-win-synced.png), [mapa restaurado da nuvem](imagens/jornada-0.6/android/cloud-restored-map.png) e configurações em [inglês](imagens/jornada-0.6/android/settings-en.png) e [es-419](imagens/jornada-0.6/android/settings-es-light.png).
+
 ## Pendências práticas
 
-O aparelho conectado foi detectado, mas permaneceu como **não autorizado no ADB**. O pedido de autorização USB foi apresentado ao usuário. Nenhuma instalação desta versão foi executada; não se declarou validação no celular nem do novo snapshot real.
+Validar a nova jornada entre dois aparelhos e conflitos simultâneos de snapshots. Fases avançadas, limites e obstáculos passaram nos testes automatizados/desktop; esta sessão no celular percorreu os dois primeiros níveis e os menus principais. O intersticial nativo e anúncios de produção não foram exercitados nesta sessão.
 
-Próximo passo: instalar o APK e avaliar a sensação da progressão, os orçamentos, os frascos e as transições no aparelho. A prova de solução garante legalidade/mínimo, não garante a dificuldade percebida. Homologação nativa de anúncios/nuvem, configuração final da loja, release e publicação continuam etapas separadas.
+Ajustar a curva e os orçamentos conforme o uso: prova de solução garante legalidade/mínimo, não a dificuldade percebida. Configuração final da loja, assinatura release e publicação continuam etapas separadas.

@@ -4,6 +4,8 @@
 
 O APK atual é `build/android/arenis-journey-0.6.0-debug.apk`, com os IDs públicos de teste do Google. Instale no Android 7.0 ou superior (API 24). O pacote definido para o aplicativo é `com.frontmakers.arenis`, versão 0.6.0, código 7. Use esse mesmo identificador no Play Console e nas credenciais Android do Play Games.
 
+A versão 0.6.0 foi instalada e conferida no Samsung SM-A530F, Android 9/API 28, com banner adaptativo de teste e restauração real de resultado pelo novo snapshot do Play Games. Consulte o [relatório da reestruturação](relatorios/reestruturacao-0.6.md) para as evidências e o alcance da validação; testes entre dois aparelhos e de anúncios intersticiais continuam separados.
+
 Copie o APK para o celular, abra-o e permita a instalação por aquele aplicativo quando o Android solicitar. Se usar USB com depuração autorizada:
 
 ```powershell
