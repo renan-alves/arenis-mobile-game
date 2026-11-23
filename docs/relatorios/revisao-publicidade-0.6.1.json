@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-22",
+  "version": "0.6.1",
+  "version_code": 8,
+  "package": "com.frontmakers.arenis",
+  "banner": "Preserved on all screens",
+  "interstitial_policy": {
+    "version": 2,
+    "protected_levels": [
+      1,
+      10
+    ],
+    "protected_replays": true,
+    "eligible_from_level": 11,
+    "eligible_completions_required": 5,
+    "minimum_seconds_since_impression": 300,
+    "initial_grace_seconds": 300,
+    "opportunity": "Only a deliberate transition out of a completed-level result",
+    "counter_saturates_at": 5,
+    "persisted_counter_and_cooldown": true,
+    "legacy_counter_reset": true,
+    "cloud_preference_preserved": true,
+    "consume_only_on_shown_callback": true,
+    "time_basis": "Elapsed wall-clock time, including time outside the app"
+  },
+  "validation": {
+    "checks": 7433,
+    "suites": 20,
+    "cli_scenarios": 6,
+    "failures": 0,
+    "ad_policy_checks": 46,
+    "summaries": [
+      "AD POLICY: 46 checks, 0 failures",
+      "JOURNEY: 2708 checks, 0 failures",
+      "SCREEN AUDIT: 576 checks, 0 failures",
+      "RULES: 88 checks, 0 failures",
+      "UI: 13 checks, 0 failures",
+      "SOLVER/CATALOG: 237 checks, 0 failures",
+      "IDENTITY: 18 checks, 0 failures",
+      "LAYOUT/SETTINGS: 24 checks, 0 failures",
+      "CAMPAIGN: 2545 checks, 0 failures",
+      "POLISH: 37 checks, 0 failures",
+      "REFINEMENT: 44 checks, 0 failures",
+      "PROGRESS/THEME: 29 checks, 0 failures",
+      "SAND ENDING: 13 checks, 0 failures",
+      "PALETTE: 37 checks, 0 failures",
+      "MECHANIC INTRO: 28 checks, 0 failures",
+      "SESSIONS: 20 checks, 0 failures",
+      "LOCALIZATION: 883 checks, 0 failures",
+      "BASIC TUTORIAL: 12 checks, 0 failures",
+      "ANDROID SERVICES: 58 checks, 0 failures",
+      "ANDROID FLOW: 17 checks, 0 failures"
+    ],
+    "site_pages": 5,
+    "site_links": 78
+  },
+  "apk": {
+    "path": "build/android/arenis-ads-0.6.1-debug.apk",
+    "bytes": 253362710,
+    "sha256": "65bef8e387c405732b2a17f050e90b7c9072e2bdbbf364822648cc10439a2dbc",
+    "signature_verified": true,
+    "sample_ads": true,
+    "arm64_present": true
+  },
+  "native": {
+    "installed": true,
+    "version": "0.6.1",
+    "version_code": 8,
+    "model": "SM-A530F",
+    "android": "9",
+    "api": 28,
+    "migration_verified": true,
+    "cloud_choice_preserved": true,
+    "progress_preserved_during_update": true,
+    "protected_level_replayed": 5,
+    "counter_after_replay": 0,
+    "cooldown_persisted_after_restart": true,
+    "banner_visible_on_map_result_settings": true,
+    "scoped_runtime_errors": 0,
+    "temporary_device_files_removed": true
+  },
+  "screenshots": "docs/relatorios/imagens/publicidade-0.6.1",
+  "environment_repair": {
+    "same_pinned_versions": true,
+    "sdk_platform": "36 revision 2",
+    "build_tools": "36.1.0",
+    "jdk": "Temurin 17.0.21+9",
+    "official_archives_verified": true,
+    "build_preflight_added": true
+  },
+  "limitations": [
+    "The real phone test confirmed introductory replay exemption, migration, persistence, banner and cloud feedback. Eligible post-level-10 full-screen presentation was verified using a fake native adapter and controlled clock; a real post-introduction interstitial was not forced on the player.",
+    "Production ads and store release remain separate; APK uses test ads."
+  ]
+}

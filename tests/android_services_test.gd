@@ -71,52 +71,60 @@ func _run() -> void:
 	old_rules.rules_version = 1
 	progress.merge_cloud(payload([old_rules]), levels)
 	check(progress.record(levels[1]).is_empty() and progress.archived_records.has("level-002@1@1"), "Different rules cannot unlock a current level")
-	var state := State.new(path + ".state")
+	var clock := {"now": 1000}
+	var read_clock := func(): return clock.now
+	var level: Dictionary = levels[10]
+	var state := State.new(path + ".state", read_clock)
 	check(state.completions == 0 and not state.cloud_enabled, "Cloud is opt-in and cadence starts empty")
-	state.completed()
-	check(state.completions == 1, "First completion does not reach ad cadence")
-	state.completed()
-	check(State.new(path + ".state").completions == 2, "Ad cadence persists across app sessions")
-	state.completed()
-	check(state.completions == 2, "Offline completions cannot accumulate multiple ad breaks")
+	state.completed(10)
+	check(state.completions == 0, "Introductory levels do not build an ad break")
+	for i in 5: state.completed(11)
+	check(State.new(path + ".state", read_clock).completions == 5, "Five-completion cadence persists")
+	state.completed(11)
+	check(state.completions == 5, "Offline completions cannot accumulate multiple ad breaks")
 	state.set_cloud_enabled(true)
-	check(State.new(path + ".state").cloud_enabled, "Cloud choice persists")
+	check(State.new(path + ".state", read_clock).cloud_enabled, "Cloud choice persists")
 	state.consume_ad_break()
 	check(state.completions == 0 and state.cloud_enabled, "Displayed ad resets cadence without changing sync")
 	var services := Services.new()
-	services.state = State.new(path + ".services")
+	services.state = State.new(path + ".services", read_clock)
 	services.progress = progress
 	services.levels = levels
 	root.add_child(services)
-	services.transition(continued)
+	services.transition(continued, level)
 	check(continuations == 1, "No native SDK never blocks navigation")
 	var native := FakeNative.new()
 	services.native = native
-	services.completed()
-	services.transition(continued)
+	services.completed(level)
+	services.transition(continued, level)
 	check(continuations == 2 and native.requests == 0, "One completion does not request interstitial")
-	services.completed()
-	services.transition(continued)
-	check(native.requests == 1 and continuations == 2, "Ad requested only at transition after two completions")
-	services.transition(continued)
+	for i in 4: services.completed(level)
+	clock.now += 300
+	services.transition(continued, level)
+	check(native.requests == 1 and continuations == 2, "Ad requires five eligible completions and elapsed cooldown")
+	services.transition(continued, level)
 	check(native.requests == 1, "Repeated tap cannot schedule a second ad")
 	services._interstitial_state("unavailable")
 	await process_frame
-	check(continuations == 3 and services.state.completions == 2, "Unavailable ad continues without consuming cadence")
+	check(continuations == 3 and services.state.completions == 5, "Unavailable ad continues without consuming cadence")
 	services._interstitial_state("closed")
 	await process_frame
 	check(continuations == 3, "Late duplicate callback cannot navigate again")
-	services.transition(continued)
+	services.transition(continued, level)
 	services._interstitial_state("shown")
 	check(services.state.completions == 0 and continuations == 3, "Only shown event consumes cadence")
+	var impression_anchor: int = services.state.cooldown_started_unix
+	clock.now += 10
+	services._interstitial_state("shown")
+	check(services.state.cooldown_started_unix == impression_anchor, "Duplicate shown callback does not restart the cooldown")
 	services._process(5)
 	check(continuations == 3, "Navigation waits while full-screen ad is showing")
 	services._interstitial_state("closed")
 	await process_frame
 	check(continuations == 4, "Closing ad continues once")
-	services.completed()
-	services.completed()
-	services.transition(continued)
+	for i in 5: services.completed(level)
+	clock.now += 300
+	services.transition(continued, level)
 	services._process(4)
 	await process_frame
 	check(continuations == 5 and native.cancels == 1, "Stalled request cancels native display and releases navigation")

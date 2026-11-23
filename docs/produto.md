@@ -1,4 +1,4 @@
-# Produto — jornada 0.6.0
+# Produto — jornada 0.6.1
 
 Arenis: Sand Sort Challenge é um jogo Android para público geral. A reestruturação de 22/11/2026 substitui as três dificuldades por uma campanha de 150 níveis sequenciais, todos predefinidos e com mínimo comprovado. Novas fases são distribuídas em atualizações do app. Nomes exibidos são Nível 1, Nível 2 etc., traduzidos nos três idiomas.
 
@@ -20,6 +20,6 @@ Por decisão explícita do responsável, a beta anterior não migra progresso pa
 
 ## Monetização e publicação
 
-Banner adaptativo inferior com espaço reservado; intersticial em transição natural após duas conclusões, incluindo rejogadas. Tentativas fracassadas não contam. Sem recompensas por publicidade. Testes usam os IDs de exemplo do Google. Falhas de anúncios ou nuvem não impedem jogar offline.
+Banner adaptativo inferior em todas as telas, com espaço reservado. Níveis 1 a 10 nunca exibem intersticial, inclusive ao rejogar, e não entram na contagem. A partir do Nível 11, intersticial somente na saída do resultado após cinco conclusões elegíveis e pelo menos cinco minutos desde a última exibição. As duas condições precisam ser atendidas. Há uma carência inicial de cinco minutos ao ativar essa política; contador e referência de tempo são persistidos. Tentativas fracassadas, abertura do app, tutoriais e reinícios não exibem intersticiais. Sem recompensas por publicidade. Testes usam os IDs de exemplo do Google. Falhas de anúncios ou nuvem não impedem jogar offline.
 
-App ainda não lançado. Pacote `com.frontmakers.arenis`, APK de teste 0.6.0 (código 7). Release, revisão de políticas da loja e homologação final continuam etapas de publicação.
+App ainda não lançado. Pacote `com.frontmakers.arenis`, APK de teste 0.6.1 (código 8). Release, revisão de políticas da loja e homologação final continuam etapas de publicação.

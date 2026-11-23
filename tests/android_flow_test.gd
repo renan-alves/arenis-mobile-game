@@ -26,17 +26,17 @@ func _run() -> void:
 	for step in proof.solution:
 		app.game.pour(step[0], step[1])
 		app._save_attempt()
-	check(app.game.won() and app.services.state.completions == 1, "Winning checkpoint registers one completion before presentation")
+	check(app.game.won() and app.services.state.completions == 0, "Winning an introductory level saves its result without building ad cadence")
 	app._show_result()
 	app._show_result()
 	app._save_attempt()
-	check(app.services.state.completions == 1, "Reopening result and retrying save do not count again")
+	check(app.services.state.completions == 0, "Reopening result preserves the introductory ad exemption")
 	app._restart()
-	check(app.services.state.completions == 1 and app.game.moves == 0, "Restart does not advance cadence")
+	check(app.services.state.completions == 0 and app.game.moves == 0, "Restart does not advance cadence")
 	for step in proof.solution:
 		app.game.pour(step[0], step[1])
 		app._save_attempt()
-	check(app.services.state.completions == 2, "Completing a replay counts as another completion")
+	check(app.services.state.completions == 0, "Replaying an introductory level remains exempt from full-screen ads")
 	check(not app.services.state.cloud_enabled and app.services.native == null, "Desktop fallback requires no Google account")
 	var original_top: float = app.theme_button.offset_top
 	app._apply_safe_top(1080, 48)

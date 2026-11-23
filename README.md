@@ -24,6 +24,10 @@ Toque no tubo de origem e depois em um tubo vazio ou com a mesma cor no topo. S�
 
 O progresso da beta anterior foi separado por autorização do responsável: novo arquivo local `journey_progress.cfg`, novas regras 3 e snapshot `arenis_journey_v1`. Preferências e escolha de sincronização permanecem. O APK de desenvolvimento continua usando anúncios de teste.
 
+## Revisão 0.6.1 — publicidade
+
+Banner mantido em todas as telas. Níveis 1–10 são isentos de anúncios de tela cheia, inclusive rejogadas. Depois, são necessárias cinco conclusões e um intervalo de cinco minutos, somente na saída do resultado. Os limites persistem entre sessões; a sincronização continua automática também nos níveis isentos. [Relatório da revisão](docs/relatorios/revisao-publicidade-0.6.1.md).
+
 ## Verificar
 
 ```powershell

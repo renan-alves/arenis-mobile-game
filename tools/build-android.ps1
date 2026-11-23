@@ -14,6 +14,12 @@ if (-not (Test-Path -LiteralPath (Join-Path $AndroidSdkPath 'platform-tools/adb.
 if (-not (Test-Path -LiteralPath (Join-Path $JavaSdkPath 'bin/java.exe'))) { throw 'Informe -JavaSdkPath com o JDK 17.' }
 $arenisJavaVersion = (& (Join-Path $JavaSdkPath 'bin/java.exe') -version 2>&1 | Out-String)
 if ($arenisJavaVersion -notmatch 'version "17\.') { throw 'Este build foi validado com JDK 17. Informe -JavaSdkPath para essa versão, sem alterar o Java global.' }
+foreach ($arenisRequiredSdkFile in @('platforms/android-36/android.jar', 'platforms/android-36/source.properties', 'platforms/android-36/core-for-system-modules.jar', 'build-tools/36.1.0/aapt2.exe', 'build-tools/36.1.0/d8.bat')) {
+    if (-not (Test-Path -LiteralPath (Join-Path $AndroidSdkPath $arenisRequiredSdkFile))) { throw "SDK Android incompleto: falta $arenisRequiredSdkFile. Reinstale o pacote correspondente pelo SDK Manager." }
+}
+foreach ($arenisRequiredJavaFile in @('bin/jlink.exe', 'lib/jrt-fs.jar')) {
+    if (-not (Test-Path -LiteralPath (Join-Path $JavaSdkPath $arenisRequiredJavaFile))) { throw "JDK 17 incompleto: falta $arenisRequiredJavaFile. Reinstale o JDK antes de compilar." }
+}
 $arenisBuild = Join-Path $arenisRoot 'android/build'
 if (-not (Test-Path -LiteralPath (Join-Path $arenisBuild 'gradlew.bat'))) {
     $arenisTemplate = Join-Path $TemplateDirectory 'android_source.zip'

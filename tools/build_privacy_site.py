@@ -31,7 +31,7 @@ CONTENT = {
     'Você pode jogar sem criar um cadastro próprio do Arenis. Anúncios e sincronização dependem da disponibilidade dos serviços Google; a sincronização é uma escolha opcional e pode não estar disponível em versões de desenvolvimento.'
    ]),
    ('local', '2. Dados salvos no aparelho', [
-    'O app guarda progresso, estrelas, melhores jogadas, uma partida em andamento da campanha, tempo decorrido nas fases com cronômetro, histórico de desfazer, cores reveladas e trancas. Também salva idioma, tema, acessibilidade, áudio, tutoriais vistos, opção de sincronização e contador local de anúncios.',
+    'O app guarda progresso, estrelas, melhores jogadas, uma partida em andamento da campanha, tempo decorrido nas fases com cronômetro, histórico de desfazer, cores reveladas e trancas. Também salva idioma, tema, acessibilidade, áudio, tutoriais vistos, opção de sincronização e controle local de frequência de anúncios (contador e referência de tempo).',
     'Esses dados permitem retomar partidas, preservar suas escolhas e controlar a frequência dos anúncios. Não temos um servidor próprio para receber suas partidas em andamento ou preferências.'
    ]),
    ('anuncios', '3. Anúncios e dados do Google', [
@@ -45,7 +45,7 @@ CONTENT = {
    ('nuvem', '5. Sincronização opcional com Play Games', [
     'O SDK do Google Play Games é inicializado na abertura do app para preparar a conexão e pode reconhecer automaticamente um perfil já configurado no aparelho. Essa preparação usa os dados de conta e técnicos necessários ao serviço, conforme {google}. A criação automática de novos perfis permanece desativada; a conexão explícita pode apresentar a interface do Google.',
     'Se o recurso estiver disponível e você ativar Sincronizar progresso em Conta e privacidade, o Google Play Games autentica sua Conta do Google e armazena uma cópia das conclusões. O Google também trata os dados de conta e técnicos necessários ao seu serviço, conforme {google}.',
-    'A cópia enviada pelo Arenis contém identificadores e revisões dos níveis, versão das regras, estrelas e melhores quantidades de jogadas. Partidas em andamento, desfazer, preferências e contador de anúncios não fazem parte dessa cópia. Desativar a sincronização interrompe a leitura e o envio de resultados pelo Arenis, mas não exclui cópias já salvas nem desconecta sua Conta do Google.'
+    'A cópia enviada pelo Arenis contém identificadores e revisões dos níveis, versão das regras, estrelas e melhores quantidades de jogadas. Partidas em andamento, desfazer, preferências e controles locais de frequência de anúncios não fazem parte dessa cópia. Desativar a sincronização interrompe a leitura e o envio de resultados pelo Arenis, mas não exclui cópias já salvas nem desconecta sua Conta do Google.'
    ]),
    ('contato', '6. Quando você entra em contato', [
     'Se enviar uma mensagem de suporte ou privacidade, trataremos seu e-mail e as informações fornecidas para responder e resolver a solicitação. Envie somente o necessário; não envie senhas ou documentos de identidade sem uma necessidade previamente esclarecida.'
@@ -85,7 +85,7 @@ CONTENT = {
     'You can play without creating an Arenis account. Ads and sync depend on Google service availability. Sync is optional and may be unavailable in development versions.'
    ]),
    ('local', '2. Data stored on your device', [
-    'The app stores progress, stars, best move counts, one ongoing campaign game, elapsed time in timed levels, undo history, revealed colors and locks. It also stores language, theme, accessibility, audio, completed tutorials, sync preference and a local ad counter.',
+    'The app stores progress, stars, best move counts, one ongoing campaign game, elapsed time in timed levels, undo history, revealed colors and locks. It also stores language, theme, accessibility, audio, completed tutorials, sync preference and local ad-frequency controls (counter and time reference).',
     'These records let you resume games, keep your preferences and control ad frequency. We do not operate our own server to receive ongoing games or preferences.'
    ]),
    ('ads', '3. Advertising and Google data', [
@@ -99,7 +99,7 @@ CONTENT = {
    ('cloud', '5. Optional Play Games sync', [
     'The Google Play Games SDK initializes when the app opens to prepare the connection and may automatically recognize a profile already configured on the device. This preparation uses account and technical data needed for the service under {google}. Automatic creation of new profiles stays disabled; an explicit connection may display Google’s interface.',
     'If the feature is available and you enable Sync progress in Account and privacy, Google Play Games authenticates your Google Account and stores a copy of completed results. Google also handles account and technical data needed for its service under {google}.',
-    'The copy sent by Arenis contains level identifiers and revisions, rules version, stars and best move counts. It excludes ongoing games, undo history, preferences and the ad counter. Turning sync off stops Arenis from reading or uploading results, but does not delete previously stored copies or sign you out of your Google Account.'
+    'The copy sent by Arenis contains level identifiers and revisions, rules version, stars and best move counts. It excludes ongoing games, undo history, preferences and local ad-frequency controls. Turning sync off stops Arenis from reading or uploading results, but does not delete previously stored copies or sign you out of your Google Account.'
    ]),
    ('contact', '6. When you contact us', [
     'If you send a support or privacy message, we process your email address and the information you provide to respond and resolve the request. Send only what is needed; do not send passwords or identity documents without a previously explained need.'
@@ -139,7 +139,7 @@ CONTENT = {
     'Puedes jugar sin crear una cuenta propia de Arenis. Los anuncios y la sincronización dependen de los servicios de Google. La sincronización es opcional y puede no estar disponible en versiones de desarrollo.'
    ]),
    ('local', '2. Datos guardados en el dispositivo', [
-    'La app guarda progreso, estrellas, mejores cantidades de movimientos, una partida en curso de la campaña, tiempo transcurrido en niveles con cronómetro, historial de deshacer, colores revelados y bloqueos. También guarda idioma, tema, accesibilidad, audio, tutoriales vistos, preferencia de sincronización y un contador local de anuncios.',
+    'La app guarda progreso, estrellas, mejores cantidades de movimientos, una partida en curso de la campaña, tiempo transcurrido en niveles con cronómetro, historial de deshacer, colores revelados y bloqueos. También guarda idioma, tema, accesibilidad, audio, tutoriales vistos, preferencia de sincronización y controles locales de frecuencia de anuncios (contador y referencia de tiempo).',
     'Estos datos permiten retomar partidas, conservar preferencias y controlar la frecuencia de anuncios. No tenemos un servidor propio que reciba partidas en curso o preferencias.'
    ]),
    ('anuncios', '3. Anuncios y datos de Google', [
@@ -153,7 +153,7 @@ CONTENT = {
    ('nube', '5. Sincronización opcional con Play Games', [
     'El SDK de Google Play Games se inicializa al abrir la app para preparar la conexión y puede reconocer automáticamente un perfil ya configurado en el dispositivo. Esta preparación utiliza los datos de cuenta y técnicos necesarios para el servicio según {google}. La creación automática de nuevos perfiles permanece desactivada; la conexión explícita puede mostrar la interfaz de Google.',
     'Si la función está disponible y activas Sincronizar progreso en Cuenta y privacidad, Google Play Games autentica tu Cuenta de Google y guarda una copia de los resultados completados. Google también trata los datos de cuenta y técnicos necesarios para su servicio según {google}.',
-    'La copia enviada por Arenis contiene identificadores y revisiones de niveles, versión de reglas, estrellas y mejores cantidades de movimientos. No incluye partidas en curso, deshacer, preferencias ni contador de anuncios. Desactivar la sincronización detiene la lectura y el envío de resultados por Arenis, pero no elimina copias guardadas ni cierra tu sesión de Google.'
+    'La copia enviada por Arenis contiene identificadores y revisiones de niveles, versión de reglas, estrellas y mejores cantidades de movimientos. No incluye partidas en curso, deshacer, preferencias ni controles locales de frecuencia de anuncios. Desactivar la sincronización detiene la lectura y el envío de resultados por Arenis, pero no elimina copias guardadas ni cierra tu sesión de Google.'
    ]),
    ('contacto', '6. Cuando nos contactas', [
     'Si envías un mensaje de soporte o privacidad, trataremos tu correo y la información proporcionada para responder y resolver la solicitud. Envía solo lo necesario; no envíes contraseñas o documentos de identidad sin una necesidad previamente explicada.'

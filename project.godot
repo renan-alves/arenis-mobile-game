@@ -14,7 +14,7 @@ config/name="Arenis: Sand Sort Challenge"
 config/icon="res://assets/branding/app-icon.svg"
 run/main_scene="res://scenes/main.tscn"
 config/auto_accept_quit=false
-config/version="0.6.0"
+config/version="0.6.1"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]

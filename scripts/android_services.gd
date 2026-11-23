@@ -38,15 +38,15 @@ func _ready() -> void:
 		if state.cloud_enabled and cloud_available:
 			_connect_cloud()
 
-func completed() -> void:
-	state.completed()
+func completed(level: Dictionary) -> void:
+	state.completed(int(level.get("number", 0)))
 	dirty = true
 	request_sync()
 
-func transition(action: Callable) -> void:
+func transition(action: Callable, level: Dictionary) -> void:
 	if ad_waiting:
 		return
-	if state.completions < 2 or native == null:
+	if native == null or not state.can_show_interstitial(int(level.get("number", 0))):
 		action.call()
 		return
 	continuation = action
@@ -74,7 +74,7 @@ func _process(delta: float) -> void:
 func _interstitial_state(event: String) -> void:
 	if not ad_waiting:
 		return
-	if event == "shown":
+	if event == "shown" and not ad_started:
 		ad_started = true
 		state.consume_ad_break()
 	elif event in ["closed", "unavailable", "failed"]:

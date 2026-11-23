@@ -963,7 +963,7 @@ func _save_attempt() -> void:
 	if error == OK and game.won() and not completion_counted:
 		completion_counted = true
 		if is_instance_valid(services):
-			services.completed()
+			services.completed(levels[level_index])
 	if save_failed:
 		push_warning("Não foi possível salvar a partida.")
 
@@ -1181,8 +1181,8 @@ func _change_language(index: int) -> void:
 	_show_settings()
 
 func _after_result(action: Callable) -> void:
-	if is_instance_valid(services):
-		services.transition(action)
+	if is_instance_valid(services) and game != null and game.won():
+		services.transition(action, levels[level_index])
 	else:
 		action.call()
 

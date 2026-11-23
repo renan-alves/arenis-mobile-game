@@ -2,7 +2,9 @@
 
 ## Versão de teste da fase 5
 
-O APK atual é `build/android/arenis-journey-0.6.0-debug.apk`, com os IDs públicos de teste do Google. Instale no Android 7.0 ou superior (API 24). O pacote definido para o aplicativo é `com.frontmakers.arenis`, versão 0.6.0, código 7. Use esse mesmo identificador no Play Console e nas credenciais Android do Play Games.
+O APK atual é `build/android/arenis-ads-0.6.1-debug.apk`, com os IDs públicos de teste do Google. Instale no Android 7.0 ou superior (API 24). O pacote definido para o aplicativo é `com.frontmakers.arenis`, versão 0.6.1, código 8. Use esse mesmo identificador no Play Console e nas credenciais Android do Play Games.
+
+A versão 0.6.1 também foi instalada nesse aparelho, com migração da frequência, isenção de rejogada inicial, banner e persistência conferidos. Consulte a [revisão de publicidade](relatorios/revisao-publicidade-0.6.1.md). O build verifica arquivos essenciais do SDK/JDK antes de compilar, para identificar instalações incompletas logo no início.
 
 A versão 0.6.0 foi instalada e conferida no Samsung SM-A530F, Android 9/API 28, com banner adaptativo de teste e restauração real de resultado pelo novo snapshot do Play Games. Consulte o [relatório da reestruturação](relatorios/reestruturacao-0.6.md) para as evidências e o alcance da validação; testes entre dois aparelhos e de anúncios intersticiais continuam separados.
 
@@ -69,7 +71,9 @@ IDs de teste incorporados:
 
 O banner é ancorado na parte inferior e tem largura/altura calculadas pela API adaptativa, não uma altura fixa de 50 dp. Sua altura efetiva e o espaço da barra de sistema são informados ao Godot. Não existe recompensa, carregamento de anúncio no meio de um despejo ou bloqueio de progresso por falha de anúncio.
 
-O contador local é global entre dificuldades e fica em `user://services.cfg`: a primeira conclusão conta um, a segunda habilita o intersticial na próxima saída do resultado, inclusive ao rejogar. Reinícios, desistências e abertura repetida do mesmo resultado não contam. O contador só zera no callback de exibição; indisponibilidade/falha mantém a oportunidade para uma transição futura. Ele satura em dois, sem acumular uma fila de anúncios enquanto offline. Fechar o app depois da exibição não gera uma cobrança duplicada na próxima sessão. Resultado e contador usam arquivos distintos; uma interrupção exatamente entre as duas gravações pode deixar de contar aquela conclusão para anúncios, sem perder o resultado salvo.
+A política de intersticiais (versão 2) fica em `user://services.cfg`. Níveis 1–10 são sempre isentos, inclusive rejogadas, e não acumulam contagem. A partir do Nível 11, cinco conclusões locais elegíveis e 300 segundos desde a última exibição são exigidos juntos. Existe uma carência inicial de 300 segundos na instalação/migração. O intervalo usa uma referência Unix persistida, incluindo o período fora do app; o anúncio só pode aparecer na saída de um resultado real. Menus, tutoriais, falhas, reinícios e abertura não o solicitam. O banner permanece em todas as telas.
+
+O contador satura em cinco e só é consumido no callback de exibição. Pedido sem anúncio disponível, falha ou timeout não zeram a contagem nem a referência de tempo; a navegação continua. Uma exibição zera a contagem e reinicia o intervalo. Ambos persistem entre sessões, sem fila de anúncios acumulada. A migração descarta a antiga dívida de duas conclusões e preserva a escolha de sincronização, o progresso e as preferências. Em falha de gravação após exibição, o limite continua aplicado em memória. Resultado e contador usam arquivos distintos; interrupção entre commits pode deixar de contar uma conclusão, sem perder o resultado.
 
 APKs de desenvolvimento gerados pelo script sempre usam os IDs de teste, mesmo se o arquivo local contiver IDs reais. Um AAB com anúncios reais exige `production=true` e a opção explícita `-ProductionAds` junto de `-Release`. O build rejeita IDs vazios e IDs de exemplo nesse modo.
 
@@ -83,7 +87,7 @@ APKs de desenvolvimento gerados pelo script sempre usam os IDs de teste, mesmo s
 
 Sem ID configurado, o provider do Play Games fica desativado pelo recurso booleano arenis_games_configured. Com um ID configurado, o provider oficial prepara o SDK antes da primeira Activity, para registrar seu ciclo de vida corretamente; o Google pode reconhecer automaticamente um perfil existente. A leitura e o envio de resultados continuam condicionados à opção Sincronizar progresso. A criação automática de novos perfis está suprimida; a conexão explícita pode apresentar a interface do Google.
 
-Snapshot: `arenis_journey_v1`, JSON schema 1, máximo 1 MiB. São enviados apenas IDs/revisões de fases, versão de regras, estrelas e melhores jogadas. Não são enviados partidas ativas, histórico de desfazer, preferências ou contador de anúncios.
+Snapshot: `arenis_journey_v1`, JSON schema 2, máximo 1 MiB. São enviados apenas IDs/revisões de fases, versão de regras, estrelas e melhores jogadas. Não são enviados partidas ativas, histórico de desfazer, preferências ou contador de anúncios.
 
 Os resultados são unidos por ID + revisão + regras, mantendo mais estrelas e menos jogadas. A operação é comutativa, associativa e idempotente. Conflitos retornados pelo SDK são mesclados novamente, com até cinco resoluções. Versões antigas continuam arquivadas e não liberam tabuleiros atuais; a sequência liberada deriva das conclusões atuais, sem confiar em um número remoto arbitrário. O merge local preserva as tentativas, mesmo quando um upload falha. Não há exclusão remota nem sincronização entre contas diferentes por um servidor próprio.
 
